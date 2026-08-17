@@ -1,0 +1,246 @@
+VARIABLE DESCRIPTIONS
+=====================
+
+Purpose
+-------
+This file describes every variable in the two packaged tabular datasets and
+the experimental inputs encoded in scenario names. Text labeled "WaterSim
+description (verbatim)" reproduces the wording in the WaterSim5 parameter
+metadata, including its original capitalization, punctuation, and spelling.
+Text labeled "Use in this study" explains how the manuscript used the field.
+
+
+DATASET 1: data/merged_ob_data.csv.gz
+------------------------------------
+Long-format regional outputs for 24,300 factorial scenarios and simulation
+years 2000-2060. There is one row per field, year, and scenario.
+
+Columns
+
+field
+    WaterSim output-field code. The five possible codes are MEDSTORE,
+    POWSTORE, SINDENV, SINYRGWR, and SVRSTORE.
+
+value
+    Numeric value of the output identified by field. Units depend on field.
+
+year
+    Simulation year, 2000-2060 inclusive.
+
+scenario
+    Unique scenario identifier. Its eight underscore-separated components
+    encode WEBPOPGR, COCLMADJ, SVCLMADJ, PCRDGPCD, WEBAGEFF, WEBAGTR1,
+    WEBAUGPCT, and ENFLOPCT in that order. See scenario_design_explained.txt.
+
+var_type
+    WaterSim variable category. OB denotes a regional output variable.
+
+
+Regional output fields
+
+SINYRGWR
+    WaterSim label: Years Pumping Can Be Sustained
+    Units: years
+    WaterSim description (verbatim): "Regional Sustainability
+    Indicator:Average years for the region that provider groundwater pumping
+    can be sustained until total groundwater credits reach zero."
+    Use in this study: Principal groundwater-sustainability outcome. Figures
+    3-5 and 7 use its 2060 value. A value of 100 represents 100 or more years
+    of groundwater supply remaining because the field is capped at 100.
+
+SINDENV
+    WaterSim label: Environment Sustainability Indicator
+    Units: percent
+    WaterSim description (verbatim): "Regional Sustainability Indicator: The
+    amount of water left in the Colorado and Salt-Verde Rivers as a percent of
+    a maximum amount that could be allocated"
+    Use in this study: Retained in the public dataset because it was requested
+    in the factorial configuration, although it is not plotted in the final
+    manuscript figures.
+
+POWSTORE
+    WaterSim label: Powell Storage
+    Units: acre-feet
+    WaterSim description (verbatim): "The total water storage in Lake Powell."
+    Use in this study: Converted to percent capacity in Figure 6 using a
+    30,000,000-acre-foot denominator.
+
+MEDSTORE
+    WaterSim label: Mead Storage
+    Units: acre-feet
+    WaterSim description (verbatim): "The total water storage in Lake Mead"
+    Use in this study: Converted to percent capacity in Figure 6 using a
+    30,000,000-acre-foot denominator.
+
+SVRSTORE
+    WaterSim label: Salt-Verde Storage
+    Units: acre-feet
+    WaterSim description (verbatim): "The total annual storage in the Salt
+    River Project reservoirs."
+    Use in this study: Converted to percent capacity in Figure 6 using a
+    2,500,000-acre-foot denominator.
+
+
+DATASET 2: data/population_growth_data.csv.gz
+------------------------------------------------
+Provider-level population outputs from the independent population-growth
+experiment. It contains 76 scenarios (WEBPOPGR 0-150), 33 providers, and
+simulation years 2000-2060. The manuscript factorial design uses the 75 levels
+from 2 through 150; level 0 is retained as a baseline.
+
+Columns
+
+provider
+    Short provider identifier. Each scenario contains all 33 modeled water
+    providers.
+
+field
+    Provider-level output code. Values are POPUSED and POPOTHER.
+
+value
+    Number of people for the provider, field, year, and scenario.
+
+year
+    Simulation year, 2000-2060 inclusive.
+
+scenario
+    Population-growth scenario in the form growth_N, where N is the WEBPOPGR
+    input value.
+
+var_type
+    WaterSim variable category. OP denotes a provider-level output variable.
+
+
+Provider output fields
+
+POPUSED
+    WaterSim label: Population
+    Units: people
+    WaterSim description (verbatim): "The population used (along with GPCD)
+    to estimate demand for the completed simulation year."
+    Use in this study: The 2060 values are summed across all 33 providers for
+    each WEBPOPGR scenario to create the regional population lookup used by
+    Figures 4, 5, and 7 and Supplementary Figure 1.
+
+POPOTHER
+    WaterSim label: Other population (ppl)
+    Units: people
+    WaterSim description (verbatim): "All other population within the provider
+    boundary"
+    Use in this study: Retained as part of the supporting population dataset,
+    but not used to calculate the regional lookup or the published figures.
+
+
+FACTORIAL INPUT VARIABLES
+-------------------------
+
+WEBPOPGR
+    WaterSim label: Population Growth
+    WaterSim units: % of that Forecasted
+    WaterSim description (verbatim): "Adjustes the population growth rate for
+    all water providers on a scale of 0-150, with 0-no growth to 150-50%
+    increase in growth rate"
+    Study levels: 2, 4, 6, ..., 148, 150 (75 levels)
+    Use in this study: A multiplier on forecasted population growth, not an
+    annual percentage growth rate. A value of 100 retains forecasted growth;
+    150 represents 150% of forecasted growth. Final regional populations are
+    obtained from the POPUSED lookup rather than treating WEBPOPGR as people.
+
+COCLMADJ
+    WaterSim label: Alter Historical Flows- Colorado
+    WaterSim units: percent
+    WaterSim description (verbatim): "The percent (Value=50 is 50%) which is
+    used to modify the Colorado river flow record, simulating impacts of
+    climate change. Change starts (or impacts the flow record) in any year that
+    the value differs from 100%."
+    Study levels: 100 and 70.
+    Use in this study: 100 is no reduction; 70 is a 30% reduction. This field
+    was paired with SVCLMADJ rather than varied independently.
+
+SVCLMADJ
+    WaterSim label: Alter Historical Flows- Salt-Verde
+    WaterSim units: percent
+    WaterSim description (verbatim): "The percent (Value=50 is 50%) which is
+    used to modify the Salt Verde River flow record, simulating impacts of
+    climate change. Change starts at beginning of Simulation (or in any year
+    where the value departs from 100%)."
+    Study levels: 105 and 85.
+    Use in this study: 105 is a 5% increase; 85 is a 15% reduction. This field
+    was paired with COCLMADJ rather than varied independently.
+
+PCRDGPCD
+    WaterSim label: Reduction in GPCD, by 2085
+    WaterSim units: percent
+    WaterSim description (verbatim): "The regional goal in percent reduction
+    in Gallons per Capita per Day to achieve by the end of the simulation run.
+    100 = no reduction, 80 = 20% reduction."
+    Study inputs: 0, 29, and 58.
+    Reproduction mapping: input 0 = 3.2%, input 29 = 25%, and input 58 = 45%
+    reductions in gallons per capita per day. These are the fixed display labels
+    used in the publication figures; they are not literal input-code values and
+    are not recalculated by the reproduction scripts.
+
+WEBAGEFF
+    WaterSim label: Agricultural Efficiency
+    WaterSim units: percent
+    WaterSim description (verbatim): "Adjust Agricultural Efficiency where
+    100 Percent is current efficiency (2015)"
+    Study inputs: 80, 90, and 100.
+    Manuscript labels: 20%, 10%, and 0% reductions in agricultural water use,
+    with 100 representing the current/default 2015 setting.
+
+WEBAGTR1
+    WaterSim label: Farm Water Used by Cities
+    WaterSim units: percent
+    WaterSim description (verbatim): "Transfers water rights from agriculture
+    to urban water providers, based on a scale of 0 to 100, with 100 allocating
+    more water to agriculture and 0 allocating less"
+    Study inputs: 0, 50, and 100.
+    Reproduction mapping: input 0 = 0%, input 50 = 50%, and input 100 = 100% of
+    available agricultural water rights transferred to municipal use. This
+    fixed mapping controls the publication figures. The final clause of the
+    verbatim metadata description is ambiguous, so it is not used to reverse or
+    reinterpret the reproduction mapping.
+
+WEBAUGPCT
+    WaterSim label: Augment Water Supply PCT
+    Study inputs: 0, 10, and 20.
+    Manuscript interpretation: 0%, 10%, and 20% supply augmentation.
+    Metadata caution: WaterSim supplies no long description or unit text for
+    this field in the available parameter metadata.
+
+ENFLOPCT
+    WaterSim label: Water For the CO Delta
+    WaterSim units: % of AZ Share
+    WaterSim description (verbatim): "The Percentage of the AZ share of
+    158,088 AF of CO River water from CAP to send to the Delta."
+    Study inputs: 0 and 50.
+    Manuscript labels: 0 and approximately 80,000 acre-feet. The 50 setting is
+    50% of 158,088 acre-feet, or 79,044 acre-feet.
+
+
+POPULATION LOOKUP METHOD
+------------------------
+The lookup is constructed by scripts/common_data.R as follows:
+
+1. Read data/population_growth_data.csv.gz.
+2. Select field = POPUSED and year = 2060.
+3. Sum value across all 33 providers within each growth_N scenario.
+4. Decode N as WEBPOPGR and order the lookup from 0 through 150.
+
+Exact tested WEBPOPGR levels are matched directly. Figure 4 also needs
+population values for distribution summaries that can fall between tested
+levels; those values are obtained by linear interpolation between adjacent
+lookup entries. Values outside the lookup range use the nearest endpoint, but
+the publication analyses do not require extrapolation beyond 0-150.
+
+
+IMPORTANT INTERPRETIVE NOTES
+----------------------------
+1. WEBPOPGR is a percentage of forecasted population growth, not population,
+   not total percentage population change, and not an annual growth rate.
+2. Scenario combinations form a factorial experiment and have no assigned
+   probabilities.
+3. WaterSim metadata wording is quoted exactly only where explicitly labeled
+   verbatim. Study interpretations and manuscript labels are identified
+   separately.

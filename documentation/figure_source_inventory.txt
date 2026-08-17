@@ -1,0 +1,171 @@
+PUBLICATION FIGURE AND TABLE INVENTORY
+======================================
+
+This inventory maps each publication output to files contained in this public
+package. All paths are relative to the repository root.
+
+
+FIGURE 1
+--------
+Subject: Location of the Phoenix Metropolitan Area and constituent cities.
+
+Final figure:
+figures/figure_1.png
+
+Generating scripts:
+scripts/figure_1.R
+scripts/figure_1_provider_map.R
+
+Required data:
+data/spatial/ICB_provider_areas_transformed.rds
+data/spatial/us_states_2024_cartographic.rds
+data/spatial/phoenix_ama/AMA_and_INA.shp
+data/spatial/phoenix_ama/AMA_and_INA.shx
+data/spatial/phoenix_ama/AMA_and_INA.dbf
+data/spatial/phoenix_ama/AMA_and_INA.prj
+
+
+FIGURE 3
+--------
+Subject: Frequency distribution of the groundwater-sustainability indicator
+across 24,300 scenarios.
+
+Final figure:
+figures/figure_3.png
+
+Generating script:
+scripts/figure_3.R
+
+Required data:
+data/merged_ob_data.csv.gz
+
+Fields used:
+SINYRGWR at year 2060, with one record for each of 24,300 scenarios.
+
+
+FIGURE 4
+--------
+Subject: Groundwater-constrained population-growth frontier.
+
+Final figure:
+figures/figure_4.png
+
+Generating scripts:
+scripts/figure_4.R
+scripts/common_data.R
+
+Required data:
+data/merged_ob_data.csv.gz
+data/population_growth_data.csv.gz
+
+Fields used:
+SINYRGWR at year 2060; WEBPOPGR decoded from scenario names; and POPUSED at
+year 2060 for the regional population lookup.
+
+
+FIGURE 5
+--------
+Subject: Projected population distributions under alternative climate
+conditions and water-policy choices.
+
+Final figure:
+figures/figure_5.png
+
+Generating scripts:
+scripts/figure_5.R
+scripts/common_data.R
+
+Required data:
+data/merged_ob_data.csv.gz
+data/population_growth_data.csv.gz
+
+Fields used:
+SINYRGWR at year 2060; all eight decoded experimental inputs; and POPUSED at
+year 2060 for the regional population lookup.
+
+
+FIGURE 6
+--------
+Subject: Lake Mead, Lake Powell, and Salt-Verde storage under two climate
+conditions.
+
+Final figure:
+figures/figure_6.png
+
+Generating scripts:
+scripts/figure_6.R
+scripts/common_data.R
+
+Required data:
+data/merged_ob_data.csv.gz
+
+Fields used:
+MEDSTORE, POWSTORE, and SVRSTORE for 2000-2060; COCLMADJ and SVCLMADJ decoded
+from scenario names. Storage is converted to percent capacity in the script.
+
+FIGURE 7
+--------
+Subject: Policy-conditioned feasibility maps of the groundwater-constrained
+population-growth frontier.
+
+Final figure:
+figures/figure_7.png
+
+Generating scripts:
+scripts/figure_7.R
+scripts/common_data.R
+
+Required data:
+data/merged_ob_data.csv.gz
+data/population_growth_data.csv.gz
+
+Fields used:
+SINYRGWR at year 2060; WEBPOPGR; PCRDGPCD; WEBAGEFF; WEBAGTR1; WEBAUGPCT; and
+POPUSED at year 2060 for population labels. Climate, environmental flow, and
+the other policy factors remain variable within each heatmap cell.
+
+
+SUPPLEMENTARY FIGURE 1
+----------------------
+Subject: Relationship between the WaterSim5 population-growth input and final
+regional population in 2060.
+
+Final figure:
+figures/supplementary_figure_1.png
+
+Generating scripts:
+scripts/supplementary_figure_1.R
+scripts/common_data.R
+
+Required data:
+data/population_growth_data.csv.gz
+
+Fields and calculation:
+POPUSED is filtered to 2060 and summed across all 33 providers for each
+population-growth scenario. The figure includes all 75 factorial WEBPOPGR
+levels from 2 through 150 in increments of 2. The additional WEBPOPGR 0
+scenario remains in the packaged data as a baseline but is not plotted.
+
+
+TABLE 1
+-------
+Subject: Factorial design of the 24,300-scenario ensemble.
+
+Configuration:
+configuration/tertiary_run.txt
+
+Plain-language explanation:
+configuration/scenario_design_explained.txt
+
+Verification script:
+configuration/verify_scenario_count.R
+
+Verification:
+75 x 2 x 3 x 3 x 3 x 3 x 2 = 24,300 scenarios.
+
+
+SHARED REPRODUCTION
+-------------------
+Run all data-generated figures from the repository root with:
+
+    Rscript scripts/reproduce_all.R

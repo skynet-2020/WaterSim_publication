@@ -1,0 +1,101 @@
+STEP 8: REPRODUCTION AND COMPARISON REPORT
+==========================================
+
+Date checked: 2026-08-17
+
+Command used from the WaterSim_publication directory:
+Rscript scripts/reproduce_all.R
+
+Result
+------
+The clean scripts completed successfully and reproduced Figures 1 and 3-7.
+
+The reproduced figures were compared with the manuscript source figures listed
+in figure_source_inventory.txt. The comparison checked figure structure,
+plotted data patterns, labels, dimensions, and major graphical elements.
+
+
+FIGURE 1
+--------
+Reproduced file: figures/figure_1.png
+Dimensions: 5,280 x 2,880 pixels
+Result: Exact match. The reproduced and manuscript-source PNG files have the
+same SHA-256 checksum.
+
+
+FIGURE 3
+--------
+Reproduced file: figures/figure_3.png
+Dimensions: 3,000 x 1,500 pixels
+Result: Data-content match. It contains the same 24,300 year-2060 scenarios,
+the same distribution of the groundwater-supply indicator, and the same high
+bar at 100 years. The clean version uses a more compact aspect ratio, clearer
+axis wording, and an annotation identifying scenarios at or above 100 years.
+
+
+FIGURE 4
+--------
+Reproduced file: figures/figure_4.png
+Dimensions: 3,000 x 1,800 pixels
+Result: Data-content match. The full range, interquartile range, and median
+follow the same population-versus-groundwater frontier as the source figure.
+The clean version incorporates the revised axis wording, spacing, font sizing,
+and internal legend developed during preparation of the public package.
+
+
+FIGURE 5
+--------
+Reproduced file: figures/figure_5.png
+Dimensions: 4,500 x 4,500 pixels
+Result: Data-content and panel-structure match. It reproduces the four
+groundwater thresholds, two climate conditions, five policy groups, violin
+distributions, and boxplots. The clean version changes some typography,
+spacing, legend placement, and policy-group annotations for readability.
+
+R emitted non-fatal warnings that some groups contained fewer than two data
+points while drawing violins. Those observations remain visible through the
+boxplot/point geometry, and the script completed normally.
+
+
+FIGURE 6
+--------
+Reproduced file: figures/figure_6.png
+Dimensions: 3,840 x 2,880 pixels
+Result: Data-content and panel-structure match. The Lake Mead, Lake Powell,
+and Salt-Verde panels reproduce the same observed/spin-up segment and the same
+two climate projections. Minor differences are limited to typography and
+legend placement.
+
+FIGURE 7
+--------
+Reproduced file: figures/figure_7.png
+Dimensions: 3,600 x 3,600 pixels
+Result: Data-content and panel-structure match. It reproduces the same 4-by-3
+policy grid, population levels, groundwater thresholds, percentage scale, and
+shared legend. Small visible differences are attributable to fresh text and
+raster rendering rather than changed calculations.
+
+
+SUPPLEMENTARY FIGURE 1
+----------------------
+Reproduced file: figures/supplementary_figure_1.png
+Dimensions: 3,000 x 1,950 pixels
+Result: The clean script regenerates the population lookup directly from the
+packaged population dataset by summing 2060 POPUSED values across all 33
+providers. It plots every factorial WEBPOPGR level from 2 through 150 and
+reproduces the source figure's line, points, viridis scale, axes, and internal
+legend. The reproduced and source PNG files have the same SHA-256 checksum.
+Validation in the script requires all 75 ordered levels and prohibits missing
+population values.
+
+
+OVERALL CONCLUSION
+------------------
+Step 8 passes. The clean public-package scripts reproduce the manuscript's
+dataset-derived findings, figure structures, and supplementary population
+figure. Figure 1 is pixel-identical; Figures 3-7 are substantively reproducible
+but are not all pixel-identical because the clean versions include intentional
+presentation improvements.
+
+No model-access location, endpoint, request string, JSON query, or model-query
+code is included in the reproduction scripts or this report.

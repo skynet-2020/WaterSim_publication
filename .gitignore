@@ -1,0 +1,72 @@
+# macOS and Windows metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# R session and IDE state
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj.user
+Rplots.pdf
+
+# Editor and development-environment files
+.vscode/
+.idea/
+.positron/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Logs, caches, and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+.cache/
+cache/
+tmp/
+temp/
+
+# R package/build artifacts
+*.tar.gz
+*.Rcheck/
+revdep/
+renv/library/
+renv/staging/
+
+# Office lock files
+~$*
+
+# Uncompressed/raw data exports; curated compressed data remain trackable
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.fst
+
+# Model-query and service-access artifacts must never enter the public package
+**/output_json_dict.json
+**/*query*.json
+**/*request*.json
+**/*response*.json
+**/*endpoint*
+
+# Local comparison and diagnostic images
+*_comparison.png
+*_comparison.jpg
+*_diff.png
+*_diff.jpg
+
+# Final publication figures are intentionally version-controlled. This rule
+# also overrides any broader PNG rule inherited while this folder is staged
+# inside the dissertation repository.
+!figures/*.png
+
+# Git Large File Storage remnants (this package does not require Git LFS)
+*.lfs-temp
+.lfsconfig

@@ -1,0 +1,167 @@
+WATERSIM5 FACTORIAL SCENARIO DESIGN
+===================================
+
+Purpose
+-------
+The study did not attempt to predict one future. It ran WaterSim5 under many
+combinations of population, climate, and water-policy assumptions. Each unique
+combination is one experimental scenario.
+
+The original machine-readable recipe is preserved without modification in:
+
+    tertiary_run.txt
+
+That file was read by the project's scenario-generation program. This guide
+translates its compact WaterSim codes into plain language.
+
+
+Simulation period
+-----------------
+Start year: 2000
+End year:   2060
+
+
+How to read a range
+-------------------
+Most entries in tertiary_run.txt use this format:
+
+    first value, last value, increment
+
+For example:
+
+    WEBPOPGR: 2,150,2
+
+means 2, 4, 6, and so on through 150. Both endpoints are included. This creates
+75 population-growth input values.
+
+
+Experimental factors
+--------------------
+
+1. Population growth: WEBPOPGR (75 levels)
+
+   WaterSim inputs: 2, 4, 6, ..., 148, 150
+
+   WEBPOPGR scales WaterSim's forecasted population growth for all providers.
+   A value of 100 retains the forecasted growth rate; 150 represents 150% of
+   forecasted growth, and 2 represents 2% of forecasted growth. It is not an
+   annual percentage growth rate. The analysis translates these inputs into
+   total regional population in 2060 using POPUSED output.
+
+
+2. Climate condition (2 paired levels)
+
+   Reference condition:
+     COCLMADJ = 100  Colorado River flow: no reduction
+     SVCLMADJ = 105  Salt-Verde River flow: 5% increase
+
+   Adverse condition:
+     COCLMADJ = 70   Colorado River flow: 30% reduction
+     SVCLMADJ = 85   Salt-Verde River flow: 15% reduction
+
+   The two river adjustments were paired. They were not varied independently,
+   so the experiment contains two combined climate conditions rather than four
+   river-flow combinations.
+
+
+3. Municipal water-use efficiency: PCRDGPCD (3 levels)
+
+   Raw WaterSim inputs: 0, 29, 58
+   Figure-label mapping: 0 = 3.2%, 29 = 25%, and 58 = 45% reductions in
+   per-capita water use. This fixed mapping is used for reproduction; the
+   percentages are display labels rather than literal input-code values.
+
+
+4. Agricultural water-use efficiency: WEBAGEFF (3 levels)
+
+   Raw WaterSim inputs: 80, 90, 100
+   Manuscript labels:  20%, 10%, and 0% reductions in agricultural water use
+
+   WaterSim defines 100 as its current/default 2015 efficiency setting.
+
+
+5. Agricultural-to-urban water transfer: WEBAGTR1 (3 levels)
+
+   WaterSim inputs: 0, 50, 100
+   Figure-label mapping: 0 = 0%, 50 = 50%, and 100 = 100% of available
+                         agricultural water rights transferred to municipal use
+
+
+6. Water-supply augmentation: WEBAUGPCT (3 levels)
+
+   WaterSim inputs: 0, 10, 20
+   Manuscript labels: 0%, 10%, and 20% supply augmentation
+
+
+7. Environmental-flow allocation: ENFLOPCT (2 levels)
+
+   WaterSim inputs: 0 and 50
+   Manuscript labels: 0 and approximately 80,000 acre-feet allocated to the
+                      Colorado River delta
+
+   WaterSim defines this input as a percentage of Arizona's share of 158,088
+   acre-feet. Thus, the 50 setting is approximately 79,044 acre-feet, presented
+   as 80,000 acre-feet in the manuscript.
+
+
+Why there are 24,300 scenarios
+------------------------------
+
+    75 population-growth levels
+     x 2 climate conditions
+     x 3 municipal water-use-efficiency levels
+     x 3 agricultural water-use-efficiency levels
+     x 3 agricultural-to-urban transfer levels
+     x 3 supply-augmentation levels
+     x 2 environmental-flow levels
+    ------------------------------------------------
+      24,300 unique experimental scenarios
+
+All combinations were tested. These scenarios are equally represented parts
+of a factorial experiment; they are not assigned probabilities and should not
+be interpreted as equally likely futures.
+
+
+How scenario names encode the inputs
+------------------------------------
+Example:
+
+    W100_CA100_CS105_P29_W90_W50_W10_E50
+
+Reading from left to right:
+
+    W100   WEBPOPGR = 100
+    CA100  COCLMADJ = 100
+    CS105  SVCLMADJ = 105
+    P29    PCRDGPCD = 29
+    W90    WEBAGEFF = 90
+    W50    WEBAGTR1 = 50
+    W10    WEBAUGPCT = 10
+    E50    ENFLOPCT = 50
+
+The repeated W prefix is a compact naming convention. The position of each
+component determines which WaterSim variable it represents.
+
+
+Requested WaterSim outputs
+--------------------------
+tertiary_run.txt requested these outputs for every scenario:
+
+    SINYRGWR  Regional years that groundwater pumping can be sustained
+    SINDENV   Regional environmental-flow indicator
+    POWSTORE  Lake Powell storage
+    MEDSTORE  Lake Mead storage
+    SVRSTORE  Salt-Verde reservoir-system storage
+
+The primary publication dataset stores these outputs in long format for every
+simulation year from 2000 through 2060.
+
+
+Independent verification
+------------------------
+Run the accompanying base-R script from the WaterSim_publication directory:
+
+    Rscript configuration/verify_scenario_count.R
+
+It reads tertiary_run.txt, expands its ranges, and stops with an error unless
+the configuration produces exactly 24,300 scenarios.

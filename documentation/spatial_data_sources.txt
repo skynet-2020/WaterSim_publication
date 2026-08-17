@@ -1,0 +1,108 @@
+SPATIAL DATA SOURCES AND PROCESSING
+===================================
+
+Purpose
+-------
+The spatial files in this repository support Figure 1. They are third-party
+government geographic data or derived products. They are not simulation inputs
+and are not covered by the repository's CC BY 4.0 license except for original
+selection, organization, documentation, and processing contributed by Joshua
+Gilman.
+
+
+U.S. STATE BOUNDARIES
+---------------------
+Packaged file:
+data/spatial/us_states_2024_cartographic.rds
+
+Source:
+U.S. Census Bureau, 2024 Cartographic Boundary Files, states.
+https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html
+
+Processing:
+The state polygons were obtained through the R spatial-data workflow and saved
+as an sf RDS object. Figure 1 excludes Alaska, Hawaii, and Puerto Rico when
+constructing the contiguous-U.S. locator map.
+
+Reuse notice:
+Works of the U.S. Government are not eligible for U.S. copyright protection.
+The Census Bureau requests source attribution and states that these statistical
+boundaries are not legal land descriptions. Census Bureau technical guidance:
+https://www.census.gov/programs-surveys/geography/technical-documentation/complete-technical-documentation/tiger-geo-line.html
+
+
+ACTIVE MANAGEMENT AREA AND IRRIGATION NON-EXPANSION AREA BOUNDARIES
+-------------------------------------------------------------------
+Packaged files:
+data/spatial/phoenix_ama/AMA_and_INA.cpg
+data/spatial/phoenix_ama/AMA_and_INA.dbf
+data/spatial/phoenix_ama/AMA_and_INA.prj
+data/spatial/phoenix_ama/AMA_and_INA.shp
+data/spatial/phoenix_ama/AMA_and_INA.shx
+data/spatial/phoenix_ama/AMA_and_INA.xml
+
+Source:
+Arizona Department of Water Resources (ADWR), AMA and INA boundary layer,
+2024 edition. The layer identifies Arizona Active Management Areas and
+Irrigation Non-Expansion Areas.
+https://azwatermaps.azwater.gov/arcgis/rest/services/General/AMA_and_INA_2024/FeatureServer/0
+
+Processing:
+The complete source layer is preserved in the package. Figure 1 selects the
+Phoenix AMA feature and transforms it for plotting.
+
+Reuse and accuracy notice:
+ADWR identifies itself as the copyright holder and supplies the data as-is,
+without warranties concerning accuracy, completeness, quality, or legal
+sufficiency. The underlying layer remains subject to ADWR's terms; this
+repository does not relicense it. ADWR data disclaimer:
+https://www.azwater.gov/data-disclaimer
+
+
+WATER-PROVIDER BOUNDARIES
+-------------------------
+Packaged file:
+data/spatial/ICB_provider_areas_transformed.rds
+
+Sources:
+1. Arizona Department of Water Resources Community Water System service-area
+   boundaries, updated March 24, 2022.
+   https://www.azwater.gov/cws/community-water-systems-data
+2. Arizona incorporated-city boundaries maintained by the Arizona State Land
+   Department through the Arizona Land Resource Information System, with input
+   from the Arizona Department of Revenue. The local source metadata records an
+   October 2021 publication date.
+   https://azgeo.az.gov/arcgis/rest/services/asld/Cities/FeatureServer/0
+
+Processing by Joshua Gilman:
+- Selected large Community Water Systems in the Phoenix AMA that correspond to
+  study providers.
+- Used incorporated-city boundaries for providers associated with a city and
+  Community Water System boundaries for the remaining mapped providers.
+- Combined multiple Buckeye service-area records during intermediate
+  processing.
+- Standardized provider names and two-letter provider codes.
+- Removed unused source attributes, combined the selected polygons, transformed
+  the coordinate reference system, and saved the result as an sf RDS object.
+
+Coverage limitation:
+The derived map contains 29 provider areas. Four population-output providers
+(Adaman Mutual, Berneil, Rigby, and West End) lacked matched spatial boundaries
+and are therefore not shown in the provider-area map. This does not affect the
+regional population calculation, which uses all 33 providers.
+
+Reuse and accuracy notice:
+The underlying Arizona geometries remain subject to their source-agency terms
+and disclaimers. ADWR states that Community Water System boundaries may be
+based on primary or secondary information and that spatial accuracy cannot be
+verified. Arizona incorporated-city metadata states that the boundaries are not
+legal records and disclaims warranties concerning their accuracy and fitness
+for a particular purpose. This repository does not relicense the underlying
+agency geometries.
+
+
+RECOMMENDED ATTRIBUTION
+-----------------------
+Map boundaries: U.S. Census Bureau; Arizona Department of Water Resources; and
+Arizona State Land Department / Arizona Land Resource Information System.
+Provider-area selection, harmonization, and processing: Joshua Gilman.

@@ -1,0 +1,18 @@
+# Normalize source and documentation files.
+*.R text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.prj text eol=lf
+*.cpg text eol=lf
+*.xml text eol=lf
+
+# Treat data, figures, and spatial binaries as binary files.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.gz binary
+*.rds binary
+*.shp binary
+*.shx binary
+*.dbf binary
