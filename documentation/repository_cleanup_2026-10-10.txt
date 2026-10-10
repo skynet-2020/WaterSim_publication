@@ -17,8 +17,9 @@ Changes
 - Retained the Figure 5 boundary audit under internal_validation/frontier_bounds/.
 - Retained the overall feasibility heatmap under additional_analysis/.
 - Removed superseded prototypes and duplicated intermediate outputs from the
-  active package. A complete pre-cleanup snapshot is held outside this Git
-  working tree in the dissertation Chapter 5 cleanup workspace.
+  active package. The temporary pre-cleanup snapshot and staging copy were
+  deleted after the cleaned repository was verified and pushed successfully;
+  the earlier repository state remains recoverable through Git history.
 - Updated documentation and reproduction paths to match manuscript version 4.
 
 Publication status
