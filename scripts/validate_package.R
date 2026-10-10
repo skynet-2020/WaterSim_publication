@@ -10,6 +10,8 @@ required_files <- c(
   "configuration/tertiary_run.txt",
   "configuration/scenario_design_explained.txt",
   "configuration/verify_scenario_count.R",
+  "current_manuscript/WaterSim_manuscript_10.9.2026_v4.docx",
+  "current_manuscript/WaterSim_supplementary_material_10.1.2026.docx",
   "data/merged_ob_data.csv.gz",
   "data/population_growth_data.csv.gz",
   "data/spatial/ICB_provider_areas_transformed.rds",
@@ -19,19 +21,21 @@ required_files <- c(
   "data/spatial/phoenix_ama/AMA_and_INA.dbf",
   "data/spatial/phoenix_ama/AMA_and_INA.prj",
   "documentation/figure_source_inventory.txt",
-  "documentation/final_release_audit.txt",
-  "documentation/package_test_report.txt",
-  "documentation/reproduction_comparison.txt",
+  "documentation/figure_4_5_6_methods_and_legacy_figure_5.txt",
+  "documentation/repository_cleanup_2026-10-10.txt",
   "documentation/software_versions.txt",
   "documentation/spatial_data_sources.txt",
   "documentation/variable_descriptions.txt",
   "figures/figure_1.png",
+  "figures/figure_2.png",
   "figures/figure_3.png",
   "figures/figure_4.png",
   "figures/figure_5.png",
   "figures/figure_6.png",
   "figures/figure_7.png",
-  "figures/supplementary_figure_1.png",
+  "supplementary/figures/supplementary_figure_1.png",
+  "supplementary/figures/supplementary_figure_2.png",
+  "supplementary/figures/supplementary_figure_3.png",
   "scripts/common_data.R",
   "scripts/figure_1.R",
   "scripts/figure_1_provider_map.R",
@@ -40,7 +44,15 @@ required_files <- c(
   "scripts/figure_5.R",
   "scripts/figure_6.R",
   "scripts/figure_7.R",
-  "scripts/supplementary_figure_1.R",
+  "supplementary/scripts/supplementary_figure_1.R",
+  "supplementary/scripts/supplementary_figure_2.R",
+  "supplementary/reproduce_supplementary.R",
+  "internal_validation/frontier_bounds/scripts/frontier_identifiability_all_thresholds.R",
+  "internal_validation/matched_frontier/scripts/frontier_matched_identifiability.R",
+  "internal_validation/matched_frontier/scripts/frontier_matched_effects.R",
+  "internal_validation/matched_frontier/scripts/figure_matched_frontier_contrasts.R",
+  "internal_validation/matched_frontier/run_matched_analysis.R",
+  "additional_analysis/overall_feasibility/scripts/figure_overall_feasibility.R",
   "scripts/reproduce_all.R",
   "scripts/capture_software_versions.R",
   "scripts/check_software_versions.R",
@@ -118,11 +130,13 @@ all_files <- list.files(
 all_files <- all_files[!grepl("^\\./?\\.git(/|$)", all_files)]
 stopifnot(all(file.info(all_files)$size < 95 * 1024^2))
 
-prohibited_extensions <- paste0(
-  "\\.(docx?|odt|bib|ris|enw|json|py|ipynb|pdf)$"
+release_reference_docs <- grepl(
+  "^\\./current_manuscript/[^/]+\\.docx$", all_files, ignore.case = TRUE
 )
+prohibited_extensions <- "\\.(docx?|odt|bib|ris|enw|json|py|ipynb|pdf)$"
 prohibited_files <- all_files[
-  grepl(prohibited_extensions, all_files, ignore.case = TRUE)
+  grepl(prohibited_extensions, all_files, ignore.case = TRUE) &
+    !release_reference_docs
 ]
 if (length(prohibited_files)) {
   stop(

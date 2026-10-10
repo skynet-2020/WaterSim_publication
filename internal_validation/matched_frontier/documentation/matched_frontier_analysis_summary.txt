@@ -1,0 +1,97 @@
+MATCHED FRONTIER COMPARISON: SUMMARY, SUPPLEMENTARY METHODS, AND FIGURE CAPTION
+
+
+1. BRIEF SUMMARY OF THE ANALYSIS
+
+This analysis measured how changing one climate or policy factor shifted the
+groundwater-constrained population frontier while every other climate and
+policy factor was held constant. The population frontier was defined, for a
+given minimum groundwater sustainability indicator (GSI) threshold, as the
+highest tested 2060 regional population whose modeled GSI met or exceeded that
+threshold.
+
+For each focal factor, scenarios were organized into matched backgrounds with
+identical settings for all other non-population factors. Population frontiers
+were then compared across the focal factor's levels within each matched
+background. Pairwise differences were calculated as the frontier for the
+second listed level minus the frontier for the first listed level. Positive
+differences indicate expansion of the population frontier, negative differences
+indicate contraction, and zero indicates that the factor-level change did not
+move the frontier to a different tested population.
+
+The analysis was restricted to GSI thresholds 83-93 because this was the
+longest contiguous interval for which every frontier required for every matched
+comparison was observed within the tested population range. The final figure
+shows both the median signed frontier difference and how consistently the
+matched backgrounds produced expansion, contraction, or no change.
+
+
+2. PROPOSED SUPPLEMENTARY METHODS
+
+Matched comparisons of the groundwater-constrained population frontier
+
+We conducted matched comparisons to quantify changes in the
+groundwater-constrained population frontier associated with individual climate
+and policy factors while holding all other non-population experimental factors
+constant. The analysis used the 2060 groundwater sustainability indicator
+(GSI) output from the complete 24,300-scenario factorial experiment and the
+regional population associated with each of the 75 tested population-growth
+levels. For each climate-policy combination and minimum GSI threshold, the
+population frontier was defined as the highest tested 2060 regional population
+whose GSI met or exceeded the threshold.
+
+For each focal factor, a matched background contained identical levels of all
+other non-population factors. For example, an agricultural-to-urban water
+transfer comparison held climate-related river-flow conditions,
+environmental-flow allocation, municipal water-use efficiency, agricultural
+water-use efficiency, and supply augmentation constant while comparing the 0%,
+50%, and 100% transfer levels. This procedure produced 162 matched backgrounds
+per threshold for the two-level climate and environmental-flow factors and 108
+matched backgrounds per threshold for each three-level policy factor.
+
+A matched set was retained only when the population frontier was observed
+within the tested population range for every level of the focal factor.
+Frontiers below or above the tested population range were not assigned the
+minimum or maximum population boundary. An identifiability analysis evaluated
+all integer GSI thresholds from 45 through 100 and identified GSI 83-93 as the
+longest contiguous interval with complete matched sets for all six factors.
+Accordingly, the matched comparison was restricted to those thresholds.
+
+Within each matched background, we calculated all pairwise factor-level
+contrasts as the frontier for the second listed level minus the frontier for the
+first listed level. For every contrast and GSI threshold, we summarized the
+median frontier difference across matched backgrounds, expressed in millions
+of people. We also classified each matched difference as an expansion
+(positive), contraction (negative), or no change (zero). The most common of
+these three responses and the percentage of matched backgrounds exhibiting it
+were then calculated for each contrast and threshold. These percentages
+describe consistency within the designed factorial scenario ensemble and are
+not probabilities of future outcomes.
+
+
+3. DRAFT FIGURE CAPTION
+
+Supplementary Fig. Sx  Matched changes in the groundwater-constrained
+population frontier across climate and policy factor levels. For each minimum
+groundwater sustainability indicator (GSI) threshold, the population frontier
+was defined as the highest tested 2060 regional population whose modeled GSI
+met or exceeded the threshold. Each pairwise comparison held all other
+non-population experimental factors at identical levels, so the two frontier
+values differed only in the focal factor. Contrasts are expressed as the
+frontier for the second listed level minus the frontier for the first listed
+level. Positive values indicate expansion of the population frontier, negative
+values indicate contraction, and zero indicates no change between tested
+population levels. The upper heatmap shows the median signed frontier
+difference across matched backgrounds, in millions of people. The lower
+heatmap shows the most common matched response: expansion (+), contraction
+(-), or no change (0). The accompanying percentage is the share of matched
+backgrounds exhibiting that response. Climate and environmental-flow
+comparisons contained 162 matched backgrounds per GSI threshold; municipal
+water-use efficiency, agricultural water-use efficiency,
+agricultural-to-urban water transfer, and supply-augmentation comparisons
+contained 108. The analysis was restricted to GSI thresholds 83-93, the
+longest contiguous interval for which every factor level required for every
+matched comparison had an observed frontier within the tested population
+range. No below-range or above-range frontier was replaced by a population
+boundary. Percentages describe consistency across the factorial scenario
+ensemble, not probabilities of future outcomes.

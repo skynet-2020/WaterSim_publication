@@ -1,0 +1,897 @@
+factor,factor_level,GSI_threshold,identifiability_class,total_background_combinations,n_below_range,pct_below_range,n_observed,pct_observed,n_above_range,pct_above_range,median_detail,q25_detail,q75_detail,factor_level_raw,factor_order,level_order
+Climate,Reference river flows,45,median itself outside tested population range,162,0,0,0,0,162,100,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,46,median itself outside tested population range,162,0,0,0,0,162,100,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,47,median itself outside tested population range,162,0,0,0,0,162,100,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,48,median itself outside tested population range,162,0,0,0,0,162,100,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,49,median itself outside tested population range,162,0,0,0,0,162,100,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,50,median itself outside tested population range,162,0,0,0,0,162,100,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,51,median itself outside tested population range,162,0,0,0,0,162,100,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,52,median itself outside tested population range,162,0,0,0,0,162,100,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,53,median itself outside tested population range,162,0,0,0,0,162,100,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,54,median itself outside tested population range,162,0,0,0,0,162,100,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,55,median itself outside tested population range,162,0,0,0,0,162,100,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,56,median itself outside tested population range,162,0,0,6,3.7037037037037,156,96.2962962962963,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,57,median itself outside tested population range,162,0,0,6,3.7037037037037,156,96.2962962962963,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,58,median itself outside tested population range,162,0,0,6,3.7037037037037,156,96.2962962962963,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,59,median itself outside tested population range,162,0,0,8,4.93827160493827,154,95.0617283950617,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,60,median itself outside tested population range,162,0,0,16,9.87654320987654,146,90.1234567901235,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,61,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,62,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,63,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,64,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,65,median itself outside tested population range,162,0,0,24,14.8148148148148,138,85.1851851851852,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,66,median itself outside tested population range,162,0,0,31,19.1358024691358,131,80.8641975308642,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,67,median itself outside tested population range,162,0,0,40,24.6913580246914,122,75.3086419753087,above_tested_range,above_tested_range,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,68,median itself outside tested population range,162,0,0,52,32.0987654320988,110,67.9012345679012,above_tested_range,exact,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,69,median itself outside tested population range,162,0,0,60,37.037037037037,102,62.962962962963,above_tested_range,exact,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,70,median itself outside tested population range,162,0,0,64,39.5061728395062,98,60.4938271604938,above_tested_range,exact,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,71,median itself outside tested population range,162,0,0,66,40.7407407407407,96,59.2592592592593,above_tested_range,exact,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,72,median itself outside tested population range,162,0,0,66,40.7407407407407,96,59.2592592592593,above_tested_range,exact,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,73,median observed but IQR partly outside tested population range,162,0,0,84,51.8518518518519,78,48.1481481481482,exact,exact,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,74,median observed but IQR partly outside tested population range,162,0,0,86,53.0864197530864,76,46.9135802469136,exact,exact,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,75,median observed but IQR partly outside tested population range,162,0,0,94,58.0246913580247,68,41.9753086419753,exact,exact,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,76,median observed but IQR partly outside tested population range,162,0,0,102,62.962962962963,60,37.037037037037,exact,exact,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,77,median observed but IQR partly outside tested population range,162,0,0,118,72.8395061728395,44,27.1604938271605,exact,exact,above_tested_range,Reference river flows,1,1
+Climate,Reference river flows,78,fully observed,162,0,0,136,83.9506172839506,26,16.0493827160494,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,79,fully observed,162,0,0,140,86.4197530864198,22,13.5802469135802,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,80,fully observed,162,0,0,152,93.8271604938272,10,6.17283950617284,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,81,fully observed,162,0,0,158,97.5308641975309,4,2.46913580246914,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,82,fully observed,162,0,0,160,98.7654320987654,2,1.23456790123457,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,83,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,84,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,85,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,86,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,87,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,88,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,89,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,90,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,91,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,92,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,93,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,94,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,95,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,96,fully observed,162,6,3.7037037037037,156,96.2962962962963,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,97,fully observed,162,6,3.7037037037037,156,96.2962962962963,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,98,fully observed,162,6,3.7037037037037,156,96.2962962962963,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,99,fully observed,162,18,11.1111111111111,144,88.8888888888889,0,0,exact,exact,exact,Reference river flows,1,1
+Climate,Reference river flows,100,median itself outside tested population range,162,108,66.6666666666667,54,33.3333333333333,0,0,below_tested_range,below_tested_range,exact,Reference river flows,1,1
+Climate,Reduced river flows,45,median itself outside tested population range,162,0,0,0,0,162,100,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,46,median itself outside tested population range,162,0,0,3,1.85185185185185,159,98.1481481481482,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,47,median itself outside tested population range,162,0,0,6,3.7037037037037,156,96.2962962962963,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,48,median itself outside tested population range,162,0,0,7,4.32098765432099,155,95.679012345679,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,49,median itself outside tested population range,162,0,0,12,7.40740740740741,150,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,50,median itself outside tested population range,162,0,0,17,10.4938271604938,145,89.5061728395062,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,51,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,52,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,53,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,54,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,55,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,56,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,57,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,58,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,59,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,60,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,61,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,62,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,63,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,64,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,65,median itself outside tested population range,162,0,0,28,17.283950617284,134,82.7160493827161,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,66,median itself outside tested population range,162,0,0,32,19.7530864197531,130,80.2469135802469,above_tested_range,above_tested_range,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,67,median itself outside tested population range,162,0,0,42,25.9259259259259,120,74.0740740740741,above_tested_range,exact,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,68,median itself outside tested population range,162,0,0,57,35.1851851851852,105,64.8148148148148,above_tested_range,exact,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,69,median itself outside tested population range,162,0,0,60,37.037037037037,102,62.962962962963,above_tested_range,exact,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,70,median itself outside tested population range,162,0,0,72,44.4444444444444,90,55.5555555555556,above_tested_range,exact,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,71,median itself outside tested population range,162,0,0,78,48.1481481481482,84,51.8518518518519,above_tested_range,exact,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,72,median observed but IQR partly outside tested population range,162,0,0,84,51.8518518518519,78,48.1481481481482,exact,exact,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,73,median observed but IQR partly outside tested population range,162,0,0,92,56.7901234567901,70,43.2098765432099,exact,exact,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,74,median observed but IQR partly outside tested population range,162,0,0,104,64.1975308641975,58,35.8024691358025,exact,exact,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,75,median observed but IQR partly outside tested population range,162,0,0,116,71.6049382716049,46,28.3950617283951,exact,exact,above_tested_range,Reduced river flows,1,2
+Climate,Reduced river flows,76,fully observed,162,0,0,126,77.7777777777778,36,22.2222222222222,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,77,fully observed,162,0,0,137,84.5679012345679,25,15.4320987654321,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,78,fully observed,162,0,0,149,91.9753086419753,13,8.02469135802469,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,79,fully observed,162,0,0,154,95.0617283950617,8,4.93827160493827,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,80,fully observed,162,0,0,160,98.7654320987654,2,1.23456790123457,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,81,fully observed,162,0,0,160,98.7654320987654,2,1.23456790123457,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,82,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,83,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,84,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,85,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,86,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,87,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,88,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,89,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,90,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,91,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,92,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,93,fully observed,162,0,0,162,100,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,94,fully observed,162,4,2.46913580246914,158,97.5308641975309,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,95,fully observed,162,6,3.7037037037037,156,96.2962962962963,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,96,fully observed,162,6,3.7037037037037,156,96.2962962962963,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,97,fully observed,162,18,11.1111111111111,144,88.8888888888889,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,98,fully observed,162,18,11.1111111111111,144,88.8888888888889,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,99,fully observed,162,27,16.6666666666667,135,83.3333333333333,0,0,exact,exact,exact,Reduced river flows,1,2
+Climate,Reduced river flows,100,median itself outside tested population range,162,108,66.6666666666667,54,33.3333333333333,0,0,below_tested_range,below_tested_range,exact,Reduced river flows,1,2
+Environmental-flow allocation,0 AF,45,median itself outside tested population range,162,0,0,0,0,162,100,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,46,median itself outside tested population range,162,0,0,0,0,162,100,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,47,median itself outside tested population range,162,0,0,3,1.85185185185185,159,98.1481481481482,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,48,median itself outside tested population range,162,0,0,3,1.85185185185185,159,98.1481481481482,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,49,median itself outside tested population range,162,0,0,4,2.46913580246914,158,97.5308641975309,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,50,median itself outside tested population range,162,0,0,8,4.93827160493827,154,95.0617283950617,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,51,median itself outside tested population range,162,0,0,9,5.55555555555556,153,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,52,median itself outside tested population range,162,0,0,9,5.55555555555556,153,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,53,median itself outside tested population range,162,0,0,9,5.55555555555556,153,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,54,median itself outside tested population range,162,0,0,9,5.55555555555556,153,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,55,median itself outside tested population range,162,0,0,9,5.55555555555556,153,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,56,median itself outside tested population range,162,0,0,12,7.40740740740741,150,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,57,median itself outside tested population range,162,0,0,12,7.40740740740741,150,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,58,median itself outside tested population range,162,0,0,12,7.40740740740741,150,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,59,median itself outside tested population range,162,0,0,13,8.02469135802469,149,91.9753086419753,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,60,median itself outside tested population range,162,0,0,17,10.4938271604938,145,89.5061728395062,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,61,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,62,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,63,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,64,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,65,median itself outside tested population range,162,0,0,25,15.4320987654321,137,84.5679012345679,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,66,median itself outside tested population range,162,0,0,31,19.1358024691358,131,80.8641975308642,above_tested_range,above_tested_range,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,67,median itself outside tested population range,162,0,0,41,25.3086419753086,121,74.6913580246914,above_tested_range,not_exactly_identifiable,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,68,median itself outside tested population range,162,0,0,53,32.7160493827161,109,67.283950617284,above_tested_range,exact,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,69,median itself outside tested population range,162,0,0,60,37.037037037037,102,62.962962962963,above_tested_range,exact,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,70,median itself outside tested population range,162,0,0,68,41.9753086419753,94,58.0246913580247,above_tested_range,exact,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,71,median itself outside tested population range,162,0,0,72,44.4444444444444,90,55.5555555555556,above_tested_range,exact,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,72,median itself outside tested population range,162,0,0,75,46.2962962962963,87,53.7037037037037,above_tested_range,exact,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,73,median observed but IQR partly outside tested population range,162,0,0,85,52.4691358024691,77,47.5308641975309,exact,exact,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,74,median observed but IQR partly outside tested population range,162,0,0,95,58.641975308642,67,41.358024691358,exact,exact,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,75,median observed but IQR partly outside tested population range,162,0,0,105,64.8148148148148,57,35.1851851851852,exact,exact,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,76,median observed but IQR partly outside tested population range,162,0,0,113,69.7530864197531,49,30.2469135802469,exact,exact,above_tested_range,0,2,1
+Environmental-flow allocation,0 AF,77,fully observed,162,0,0,127,78.3950617283951,35,21.6049382716049,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,78,fully observed,162,0,0,142,87.6543209876543,20,12.3456790123457,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,79,fully observed,162,0,0,147,90.7407407407407,15,9.25925925925926,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,80,fully observed,162,0,0,156,96.2962962962963,6,3.7037037037037,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,81,fully observed,162,0,0,159,98.1481481481482,3,1.85185185185185,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,82,fully observed,162,0,0,161,99.3827160493827,1,0.617283950617284,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,83,fully observed,162,0,0,162,100,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,84,fully observed,162,0,0,162,100,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,85,fully observed,162,0,0,162,100,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,86,fully observed,162,0,0,162,100,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,87,fully observed,162,0,0,162,100,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,88,fully observed,162,0,0,162,100,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,89,fully observed,162,0,0,162,100,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,90,fully observed,162,0,0,162,100,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,91,fully observed,162,0,0,162,100,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,92,fully observed,162,0,0,162,100,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,93,fully observed,162,0,0,162,100,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,94,fully observed,162,1,0.617283950617284,161,99.3827160493827,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,95,fully observed,162,3,1.85185185185185,159,98.1481481481482,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,96,fully observed,162,6,3.7037037037037,156,96.2962962962963,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,97,fully observed,162,12,7.40740740740741,150,92.5925925925926,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,98,fully observed,162,12,7.40740740740741,150,92.5925925925926,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,99,fully observed,162,21,12.962962962963,141,87.037037037037,0,0,exact,exact,exact,0,2,1
+Environmental-flow allocation,0 AF,100,median itself outside tested population range,162,108,66.6666666666667,54,33.3333333333333,0,0,below_tested_range,below_tested_range,exact,0,2,1
+Environmental-flow allocation,"80,000 AF",45,median itself outside tested population range,162,0,0,0,0,162,100,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",46,median itself outside tested population range,162,0,0,3,1.85185185185185,159,98.1481481481482,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",47,median itself outside tested population range,162,0,0,3,1.85185185185185,159,98.1481481481482,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",48,median itself outside tested population range,162,0,0,4,2.46913580246914,158,97.5308641975309,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",49,median itself outside tested population range,162,0,0,8,4.93827160493827,154,95.0617283950617,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",50,median itself outside tested population range,162,0,0,9,5.55555555555556,153,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",51,median itself outside tested population range,162,0,0,9,5.55555555555556,153,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",52,median itself outside tested population range,162,0,0,9,5.55555555555556,153,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",53,median itself outside tested population range,162,0,0,9,5.55555555555556,153,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",54,median itself outside tested population range,162,0,0,9,5.55555555555556,153,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",55,median itself outside tested population range,162,0,0,9,5.55555555555556,153,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",56,median itself outside tested population range,162,0,0,12,7.40740740740741,150,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",57,median itself outside tested population range,162,0,0,12,7.40740740740741,150,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",58,median itself outside tested population range,162,0,0,12,7.40740740740741,150,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",59,median itself outside tested population range,162,0,0,13,8.02469135802469,149,91.9753086419753,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",60,median itself outside tested population range,162,0,0,17,10.4938271604938,145,89.5061728395062,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",61,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",62,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",63,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",64,median itself outside tested population range,162,0,0,18,11.1111111111111,144,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",65,median itself outside tested population range,162,0,0,27,16.6666666666667,135,83.3333333333333,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",66,median itself outside tested population range,162,0,0,32,19.7530864197531,130,80.2469135802469,above_tested_range,above_tested_range,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",67,median itself outside tested population range,162,0,0,41,25.3086419753086,121,74.6913580246914,above_tested_range,not_exactly_identifiable,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",68,median itself outside tested population range,162,0,0,56,34.5679012345679,106,65.4320987654321,above_tested_range,exact,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",69,median itself outside tested population range,162,0,0,60,37.037037037037,102,62.962962962963,above_tested_range,exact,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",70,median itself outside tested population range,162,0,0,68,41.9753086419753,94,58.0246913580247,above_tested_range,exact,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",71,median itself outside tested population range,162,0,0,72,44.4444444444444,90,55.5555555555556,above_tested_range,exact,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",72,median itself outside tested population range,162,0,0,75,46.2962962962963,87,53.7037037037037,above_tested_range,exact,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",73,median observed but IQR partly outside tested population range,162,0,0,91,56.1728395061729,71,43.8271604938272,exact,exact,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",74,median observed but IQR partly outside tested population range,162,0,0,95,58.641975308642,67,41.358024691358,exact,exact,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",75,median observed but IQR partly outside tested population range,162,0,0,105,64.8148148148148,57,35.1851851851852,exact,exact,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",76,median observed but IQR partly outside tested population range,162,0,0,115,70.9876543209877,47,29.0123456790123,exact,exact,above_tested_range,50,2,2
+Environmental-flow allocation,"80,000 AF",77,fully observed,162,0,0,128,79.0123456790123,34,20.9876543209877,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",78,fully observed,162,0,0,143,88.2716049382716,19,11.7283950617284,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",79,fully observed,162,0,0,147,90.7407407407407,15,9.25925925925926,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",80,fully observed,162,0,0,156,96.2962962962963,6,3.7037037037037,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",81,fully observed,162,0,0,159,98.1481481481482,3,1.85185185185185,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",82,fully observed,162,0,0,161,99.3827160493827,1,0.617283950617284,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",83,fully observed,162,0,0,162,100,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",84,fully observed,162,0,0,162,100,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",85,fully observed,162,0,0,162,100,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",86,fully observed,162,0,0,162,100,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",87,fully observed,162,0,0,162,100,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",88,fully observed,162,0,0,162,100,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",89,fully observed,162,0,0,162,100,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",90,fully observed,162,0,0,162,100,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",91,fully observed,162,0,0,162,100,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",92,fully observed,162,0,0,162,100,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",93,fully observed,162,0,0,162,100,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",94,fully observed,162,3,1.85185185185185,159,98.1481481481482,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",95,fully observed,162,3,1.85185185185185,159,98.1481481481482,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",96,fully observed,162,6,3.7037037037037,156,96.2962962962963,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",97,fully observed,162,12,7.40740740740741,150,92.5925925925926,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",98,fully observed,162,12,7.40740740740741,150,92.5925925925926,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",99,fully observed,162,24,14.8148148148148,138,85.1851851851852,0,0,exact,exact,exact,50,2,2
+Environmental-flow allocation,"80,000 AF",100,median itself outside tested population range,162,108,66.6666666666667,54,33.3333333333333,0,0,below_tested_range,below_tested_range,exact,50,2,2
+MWUE,3.2% reduction,45,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,46,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,47,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,48,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,49,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,50,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,51,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,52,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,53,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,54,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,55,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,56,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,57,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,58,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,59,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,60,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,61,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,62,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,63,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,64,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,65,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,66,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,67,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,68,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,69,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,70,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,71,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,72,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,73,median itself outside tested population range,108,0,0,15,13.8888888888889,93,86.1111111111111,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,74,median itself outside tested population range,108,0,0,24,22.2222222222222,84,77.7777777777778,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,75,median itself outside tested population range,108,0,0,26,24.0740740740741,82,75.9259259259259,above_tested_range,above_tested_range,above_tested_range,0,3,1
+MWUE,3.2% reduction,76,median itself outside tested population range,108,0,0,39,36.1111111111111,69,63.8888888888889,above_tested_range,exact,above_tested_range,0,3,1
+MWUE,3.2% reduction,77,median observed but IQR partly outside tested population range,108,0,0,55,50.9259259259259,53,49.0740740740741,exact,exact,above_tested_range,0,3,1
+MWUE,3.2% reduction,78,median observed but IQR partly outside tested population range,108,0,0,77,71.2962962962963,31,28.7037037037037,exact,exact,above_tested_range,0,3,1
+MWUE,3.2% reduction,79,fully observed,108,0,0,84,77.7777777777778,24,22.2222222222222,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,80,fully observed,108,0,0,98,90.7407407407407,10,9.25925925925926,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,81,fully observed,108,0,0,102,94.4444444444444,6,5.55555555555556,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,82,fully observed,108,0,0,106,98.1481481481482,2,1.85185185185185,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,83,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,84,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,85,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,86,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,87,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,88,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,89,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,90,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,91,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,92,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,93,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,94,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,95,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,96,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,97,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,98,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,99,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,3,1
+MWUE,3.2% reduction,100,median itself outside tested population range,108,72,66.6666666666667,36,33.3333333333333,0,0,below_tested_range,below_tested_range,exact,0,3,1
+MWUE,25% reduction,45,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,29,3,2
+MWUE,25% reduction,46,median itself outside tested population range,108,0,0,3,2.77777777777778,105,97.2222222222222,above_tested_range,above_tested_range,above_tested_range,29,3,2
+MWUE,25% reduction,47,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,29,3,2
+MWUE,25% reduction,48,median itself outside tested population range,108,0,0,7,6.48148148148148,101,93.5185185185185,above_tested_range,above_tested_range,above_tested_range,29,3,2
+MWUE,25% reduction,49,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,29,3,2
+MWUE,25% reduction,50,median itself outside tested population range,108,0,0,17,15.7407407407407,91,84.2592592592593,above_tested_range,above_tested_range,above_tested_range,29,3,2
+MWUE,25% reduction,51,median itself outside tested population range,108,0,0,18,16.6666666666667,90,83.3333333333333,above_tested_range,above_tested_range,above_tested_range,29,3,2
+MWUE,25% reduction,52,median itself outside tested population range,108,0,0,18,16.6666666666667,90,83.3333333333333,above_tested_range,above_tested_range,above_tested_range,29,3,2
+MWUE,25% reduction,53,median itself outside tested population range,108,0,0,18,16.6666666666667,90,83.3333333333333,above_tested_range,above_tested_range,above_tested_range,29,3,2
+MWUE,25% reduction,54,median itself outside tested population range,108,0,0,18,16.6666666666667,90,83.3333333333333,above_tested_range,above_tested_range,above_tested_range,29,3,2
+MWUE,25% reduction,55,median itself outside tested population range,108,0,0,18,16.6666666666667,90,83.3333333333333,above_tested_range,above_tested_range,above_tested_range,29,3,2
+MWUE,25% reduction,56,median itself outside tested population range,108,0,0,24,22.2222222222222,84,77.7777777777778,above_tested_range,above_tested_range,above_tested_range,29,3,2
+MWUE,25% reduction,57,median itself outside tested population range,108,0,0,24,22.2222222222222,84,77.7777777777778,above_tested_range,above_tested_range,above_tested_range,29,3,2
+MWUE,25% reduction,58,median itself outside tested population range,108,0,0,24,22.2222222222222,84,77.7777777777778,above_tested_range,above_tested_range,above_tested_range,29,3,2
+MWUE,25% reduction,59,median itself outside tested population range,108,0,0,26,24.0740740740741,82,75.9259259259259,above_tested_range,above_tested_range,above_tested_range,29,3,2
+MWUE,25% reduction,60,median itself outside tested population range,108,0,0,34,31.4814814814815,74,68.5185185185185,above_tested_range,exact,above_tested_range,29,3,2
+MWUE,25% reduction,61,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,29,3,2
+MWUE,25% reduction,62,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,29,3,2
+MWUE,25% reduction,63,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,29,3,2
+MWUE,25% reduction,64,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,29,3,2
+MWUE,25% reduction,65,median itself outside tested population range,108,0,0,52,48.1481481481482,56,51.8518518518519,above_tested_range,exact,above_tested_range,29,3,2
+MWUE,25% reduction,66,median observed but IQR partly outside tested population range,108,0,0,63,58.3333333333333,45,41.6666666666667,exact,exact,above_tested_range,29,3,2
+MWUE,25% reduction,67,fully observed,108,0,0,82,75.9259259259259,26,24.0740740740741,exact,exact,exact,29,3,2
+MWUE,25% reduction,68,fully observed,108,0,0,106,98.1481481481482,2,1.85185185185185,exact,exact,exact,29,3,2
+MWUE,25% reduction,69,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,70,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,71,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,72,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,73,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,74,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,75,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,76,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,77,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,78,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,79,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,80,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,81,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,82,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,83,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,84,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,85,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,86,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,87,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,88,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,89,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,90,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,91,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,92,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,93,fully observed,108,0,0,108,100,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,94,fully observed,108,4,3.7037037037037,104,96.2962962962963,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,95,fully observed,108,6,5.55555555555556,102,94.4444444444444,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,96,fully observed,108,12,11.1111111111111,96,88.8888888888889,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,97,fully observed,108,24,22.2222222222222,84,77.7777777777778,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,98,fully observed,108,24,22.2222222222222,84,77.7777777777778,0,0,exact,exact,exact,29,3,2
+MWUE,25% reduction,99,median observed but IQR partly outside tested population range,108,42,38.8888888888889,66,61.1111111111111,0,0,exact,below_tested_range,exact,29,3,2
+MWUE,25% reduction,100,median itself outside tested population range,108,96,88.8888888888889,12,11.1111111111111,0,0,below_tested_range,below_tested_range,below_tested_range,29,3,2
+MWUE,45% reduction,45,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,46,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,47,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,48,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,49,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,50,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,51,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,52,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,53,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,54,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,55,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,56,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,57,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,58,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,59,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,60,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,61,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,62,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,63,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,64,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,65,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,66,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,67,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,68,median itself outside tested population range,108,0,0,3,2.77777777777778,105,97.2222222222222,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,69,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,70,median itself outside tested population range,108,0,0,22,20.3703703703704,86,79.6296296296296,above_tested_range,above_tested_range,above_tested_range,58,3,3
+MWUE,45% reduction,71,median itself outside tested population range,108,0,0,30,27.7777777777778,78,72.2222222222222,above_tested_range,exact,above_tested_range,58,3,3
+MWUE,45% reduction,72,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,58,3,3
+MWUE,45% reduction,73,median itself outside tested population range,108,0,0,53,49.0740740740741,55,50.9259259259259,above_tested_range,exact,above_tested_range,58,3,3
+MWUE,45% reduction,74,median observed but IQR partly outside tested population range,108,0,0,58,53.7037037037037,50,46.2962962962963,exact,exact,above_tested_range,58,3,3
+MWUE,45% reduction,75,median observed but IQR partly outside tested population range,108,0,0,76,70.3703703703704,32,29.6296296296296,exact,exact,above_tested_range,58,3,3
+MWUE,45% reduction,76,median observed but IQR partly outside tested population range,108,0,0,81,75,27,25,exact,exact,not_exactly_identifiable,58,3,3
+MWUE,45% reduction,77,fully observed,108,0,0,92,85.1851851851852,16,14.8148148148148,exact,exact,exact,58,3,3
+MWUE,45% reduction,78,fully observed,108,0,0,100,92.5925925925926,8,7.40740740740741,exact,exact,exact,58,3,3
+MWUE,45% reduction,79,fully observed,108,0,0,102,94.4444444444444,6,5.55555555555556,exact,exact,exact,58,3,3
+MWUE,45% reduction,80,fully observed,108,0,0,106,98.1481481481482,2,1.85185185185185,exact,exact,exact,58,3,3
+MWUE,45% reduction,81,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,82,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,83,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,84,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,85,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,86,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,87,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,88,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,89,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,90,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,91,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,92,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,93,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,94,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,95,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,96,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,97,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,98,fully observed,108,0,0,108,100,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,99,fully observed,108,3,2.77777777777778,105,97.2222222222222,0,0,exact,exact,exact,58,3,3
+MWUE,45% reduction,100,median observed but IQR partly outside tested population range,108,48,44.4444444444444,60,55.5555555555556,0,0,exact,below_tested_range,exact,58,3,3
+AWUE,Current (2015),45,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),46,median itself outside tested population range,108,0,0,1,0.925925925925926,107,99.0740740740741,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),47,median itself outside tested population range,108,0,0,2,1.85185185185185,106,98.1481481481482,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),48,median itself outside tested population range,108,0,0,2,1.85185185185185,106,98.1481481481482,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),49,median itself outside tested population range,108,0,0,3,2.77777777777778,105,97.2222222222222,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),50,median itself outside tested population range,108,0,0,5,4.62962962962963,103,95.3703703703704,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),51,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),52,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),53,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),54,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),55,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),56,median itself outside tested population range,108,0,0,8,7.40740740740741,100,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),57,median itself outside tested population range,108,0,0,8,7.40740740740741,100,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),58,median itself outside tested population range,108,0,0,8,7.40740740740741,100,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),59,median itself outside tested population range,108,0,0,8,7.40740740740741,100,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),60,median itself outside tested population range,108,0,0,10,9.25925925925926,98,90.7407407407407,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),61,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),62,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),63,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),64,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),65,median itself outside tested population range,108,0,0,17,15.7407407407407,91,84.2592592592593,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),66,median itself outside tested population range,108,0,0,20,18.5185185185185,88,81.4814814814815,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),67,median itself outside tested population range,108,0,0,22,20.3703703703704,86,79.6296296296296,above_tested_range,above_tested_range,above_tested_range,100,4,1
+AWUE,Current (2015),68,median itself outside tested population range,108,0,0,35,32.4074074074074,73,67.5925925925926,above_tested_range,exact,above_tested_range,100,4,1
+AWUE,Current (2015),69,median itself outside tested population range,108,0,0,40,37.037037037037,68,62.962962962963,above_tested_range,exact,above_tested_range,100,4,1
+AWUE,Current (2015),70,median itself outside tested population range,108,0,0,44,40.7407407407407,64,59.2592592592593,above_tested_range,exact,above_tested_range,100,4,1
+AWUE,Current (2015),71,median itself outside tested population range,108,0,0,48,44.4444444444444,60,55.5555555555556,above_tested_range,exact,above_tested_range,100,4,1
+AWUE,Current (2015),72,median itself outside tested population range,108,0,0,50,46.2962962962963,58,53.7037037037037,above_tested_range,exact,above_tested_range,100,4,1
+AWUE,Current (2015),73,median observed but IQR partly outside tested population range,108,0,0,58,53.7037037037037,50,46.2962962962963,exact,exact,above_tested_range,100,4,1
+AWUE,Current (2015),74,median observed but IQR partly outside tested population range,108,0,0,62,57.4074074074074,46,42.5925925925926,exact,exact,above_tested_range,100,4,1
+AWUE,Current (2015),75,median observed but IQR partly outside tested population range,108,0,0,66,61.1111111111111,42,38.8888888888889,exact,exact,above_tested_range,100,4,1
+AWUE,Current (2015),76,median observed but IQR partly outside tested population range,108,0,0,70,64.8148148148148,38,35.1851851851852,exact,exact,above_tested_range,100,4,1
+AWUE,Current (2015),77,median observed but IQR partly outside tested population range,108,0,0,78,72.2222222222222,30,27.7777777777778,exact,exact,above_tested_range,100,4,1
+AWUE,Current (2015),78,fully observed,108,0,0,89,82.4074074074074,19,17.5925925925926,exact,exact,exact,100,4,1
+AWUE,Current (2015),79,fully observed,108,0,0,90,83.3333333333333,18,16.6666666666667,exact,exact,exact,100,4,1
+AWUE,Current (2015),80,fully observed,108,0,0,100,92.5925925925926,8,7.40740740740741,exact,exact,exact,100,4,1
+AWUE,Current (2015),81,fully observed,108,0,0,104,96.2962962962963,4,3.7037037037037,exact,exact,exact,100,4,1
+AWUE,Current (2015),82,fully observed,108,0,0,106,98.1481481481482,2,1.85185185185185,exact,exact,exact,100,4,1
+AWUE,Current (2015),83,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),84,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),85,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),86,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),87,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),88,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),89,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),90,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),91,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),92,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),93,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),94,fully observed,108,1,0.925925925925926,107,99.0740740740741,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),95,fully observed,108,2,1.85185185185185,106,98.1481481481482,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),96,fully observed,108,4,3.7037037037037,104,96.2962962962963,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),97,fully observed,108,8,7.40740740740741,100,92.5925925925926,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),98,fully observed,108,8,7.40740740740741,100,92.5925925925926,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),99,fully observed,108,15,13.8888888888889,93,86.1111111111111,0,0,exact,exact,exact,100,4,1
+AWUE,Current (2015),100,median itself outside tested population range,108,72,66.6666666666667,36,33.3333333333333,0,0,below_tested_range,below_tested_range,exact,100,4,1
+AWUE,10% below 2015,45,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,46,median itself outside tested population range,108,0,0,1,0.925925925925926,107,99.0740740740741,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,47,median itself outside tested population range,108,0,0,2,1.85185185185185,106,98.1481481481482,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,48,median itself outside tested population range,108,0,0,2,1.85185185185185,106,98.1481481481482,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,49,median itself outside tested population range,108,0,0,4,3.7037037037037,104,96.2962962962963,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,50,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,51,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,52,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,53,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,54,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,55,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,56,median itself outside tested population range,108,0,0,8,7.40740740740741,100,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,57,median itself outside tested population range,108,0,0,8,7.40740740740741,100,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,58,median itself outside tested population range,108,0,0,8,7.40740740740741,100,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,59,median itself outside tested population range,108,0,0,8,7.40740740740741,100,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,60,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,61,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,62,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,63,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,64,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,65,median itself outside tested population range,108,0,0,17,15.7407407407407,91,84.2592592592593,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,66,median itself outside tested population range,108,0,0,20,18.5185185185185,88,81.4814814814815,above_tested_range,above_tested_range,above_tested_range,90,4,2
+AWUE,10% below 2015,67,median itself outside tested population range,108,0,0,28,25.9259259259259,80,74.0740740740741,above_tested_range,exact,above_tested_range,90,4,2
+AWUE,10% below 2015,68,median itself outside tested population range,108,0,0,37,34.2592592592593,71,65.7407407407408,above_tested_range,exact,above_tested_range,90,4,2
+AWUE,10% below 2015,69,median itself outside tested population range,108,0,0,40,37.037037037037,68,62.962962962963,above_tested_range,exact,above_tested_range,90,4,2
+AWUE,10% below 2015,70,median itself outside tested population range,108,0,0,46,42.5925925925926,62,57.4074074074074,above_tested_range,exact,above_tested_range,90,4,2
+AWUE,10% below 2015,71,median itself outside tested population range,108,0,0,48,44.4444444444444,60,55.5555555555556,above_tested_range,exact,above_tested_range,90,4,2
+AWUE,10% below 2015,72,median itself outside tested population range,108,0,0,50,46.2962962962963,58,53.7037037037037,above_tested_range,exact,above_tested_range,90,4,2
+AWUE,10% below 2015,73,median observed but IQR partly outside tested population range,108,0,0,58,53.7037037037037,50,46.2962962962963,exact,exact,above_tested_range,90,4,2
+AWUE,10% below 2015,74,median observed but IQR partly outside tested population range,108,0,0,62,57.4074074074074,46,42.5925925925926,exact,exact,above_tested_range,90,4,2
+AWUE,10% below 2015,75,median observed but IQR partly outside tested population range,108,0,0,70,64.8148148148148,38,35.1851851851852,exact,exact,above_tested_range,90,4,2
+AWUE,10% below 2015,76,median observed but IQR partly outside tested population range,108,0,0,77,71.2962962962963,31,28.7037037037037,exact,exact,above_tested_range,90,4,2
+AWUE,10% below 2015,77,fully observed,108,0,0,86,79.6296296296296,22,20.3703703703704,exact,exact,exact,90,4,2
+AWUE,10% below 2015,78,fully observed,108,0,0,96,88.8888888888889,12,11.1111111111111,exact,exact,exact,90,4,2
+AWUE,10% below 2015,79,fully observed,108,0,0,100,92.5925925925926,8,7.40740740740741,exact,exact,exact,90,4,2
+AWUE,10% below 2015,80,fully observed,108,0,0,106,98.1481481481482,2,1.85185185185185,exact,exact,exact,90,4,2
+AWUE,10% below 2015,81,fully observed,108,0,0,106,98.1481481481482,2,1.85185185185185,exact,exact,exact,90,4,2
+AWUE,10% below 2015,82,fully observed,108,0,0,108,100,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,83,fully observed,108,0,0,108,100,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,84,fully observed,108,0,0,108,100,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,85,fully observed,108,0,0,108,100,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,86,fully observed,108,0,0,108,100,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,87,fully observed,108,0,0,108,100,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,88,fully observed,108,0,0,108,100,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,89,fully observed,108,0,0,108,100,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,90,fully observed,108,0,0,108,100,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,91,fully observed,108,0,0,108,100,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,92,fully observed,108,0,0,108,100,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,93,fully observed,108,0,0,108,100,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,94,fully observed,108,1,0.925925925925926,107,99.0740740740741,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,95,fully observed,108,2,1.85185185185185,106,98.1481481481482,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,96,fully observed,108,4,3.7037037037037,104,96.2962962962963,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,97,fully observed,108,8,7.40740740740741,100,92.5925925925926,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,98,fully observed,108,8,7.40740740740741,100,92.5925925925926,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,99,fully observed,108,15,13.8888888888889,93,86.1111111111111,0,0,exact,exact,exact,90,4,2
+AWUE,10% below 2015,100,median itself outside tested population range,108,72,66.6666666666667,36,33.3333333333333,0,0,below_tested_range,below_tested_range,exact,90,4,2
+AWUE,20% below 2015,45,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,46,median itself outside tested population range,108,0,0,1,0.925925925925926,107,99.0740740740741,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,47,median itself outside tested population range,108,0,0,2,1.85185185185185,106,98.1481481481482,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,48,median itself outside tested population range,108,0,0,3,2.77777777777778,105,97.2222222222222,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,49,median itself outside tested population range,108,0,0,5,4.62962962962963,103,95.3703703703704,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,50,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,51,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,52,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,53,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,54,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,55,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,56,median itself outside tested population range,108,0,0,8,7.40740740740741,100,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,57,median itself outside tested population range,108,0,0,8,7.40740740740741,100,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,58,median itself outside tested population range,108,0,0,8,7.40740740740741,100,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,59,median itself outside tested population range,108,0,0,10,9.25925925925926,98,90.7407407407407,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,60,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,61,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,62,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,63,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,64,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,65,median itself outside tested population range,108,0,0,18,16.6666666666667,90,83.3333333333333,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,66,median itself outside tested population range,108,0,0,23,21.2962962962963,85,78.7037037037037,above_tested_range,above_tested_range,above_tested_range,80,4,3
+AWUE,20% below 2015,67,median itself outside tested population range,108,0,0,32,29.6296296296296,76,70.3703703703704,above_tested_range,exact,above_tested_range,80,4,3
+AWUE,20% below 2015,68,median itself outside tested population range,108,0,0,37,34.2592592592593,71,65.7407407407408,above_tested_range,exact,above_tested_range,80,4,3
+AWUE,20% below 2015,69,median itself outside tested population range,108,0,0,40,37.037037037037,68,62.962962962963,above_tested_range,exact,above_tested_range,80,4,3
+AWUE,20% below 2015,70,median itself outside tested population range,108,0,0,46,42.5925925925926,62,57.4074074074074,above_tested_range,exact,above_tested_range,80,4,3
+AWUE,20% below 2015,71,median itself outside tested population range,108,0,0,48,44.4444444444444,60,55.5555555555556,above_tested_range,exact,above_tested_range,80,4,3
+AWUE,20% below 2015,72,median itself outside tested population range,108,0,0,50,46.2962962962963,58,53.7037037037037,above_tested_range,exact,above_tested_range,80,4,3
+AWUE,20% below 2015,73,median observed but IQR partly outside tested population range,108,0,0,60,55.5555555555556,48,44.4444444444444,exact,exact,above_tested_range,80,4,3
+AWUE,20% below 2015,74,median observed but IQR partly outside tested population range,108,0,0,66,61.1111111111111,42,38.8888888888889,exact,exact,above_tested_range,80,4,3
+AWUE,20% below 2015,75,median observed but IQR partly outside tested population range,108,0,0,74,68.5185185185185,34,31.4814814814815,exact,exact,above_tested_range,80,4,3
+AWUE,20% below 2015,76,median observed but IQR partly outside tested population range,108,0,0,81,75,27,25,exact,exact,not_exactly_identifiable,80,4,3
+AWUE,20% below 2015,77,fully observed,108,0,0,91,84.2592592592593,17,15.7407407407407,exact,exact,exact,80,4,3
+AWUE,20% below 2015,78,fully observed,108,0,0,100,92.5925925925926,8,7.40740740740741,exact,exact,exact,80,4,3
+AWUE,20% below 2015,79,fully observed,108,0,0,104,96.2962962962963,4,3.7037037037037,exact,exact,exact,80,4,3
+AWUE,20% below 2015,80,fully observed,108,0,0,106,98.1481481481482,2,1.85185185185185,exact,exact,exact,80,4,3
+AWUE,20% below 2015,81,fully observed,108,0,0,108,100,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,82,fully observed,108,0,0,108,100,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,83,fully observed,108,0,0,108,100,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,84,fully observed,108,0,0,108,100,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,85,fully observed,108,0,0,108,100,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,86,fully observed,108,0,0,108,100,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,87,fully observed,108,0,0,108,100,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,88,fully observed,108,0,0,108,100,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,89,fully observed,108,0,0,108,100,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,90,fully observed,108,0,0,108,100,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,91,fully observed,108,0,0,108,100,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,92,fully observed,108,0,0,108,100,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,93,fully observed,108,0,0,108,100,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,94,fully observed,108,2,1.85185185185185,106,98.1481481481482,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,95,fully observed,108,2,1.85185185185185,106,98.1481481481482,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,96,fully observed,108,4,3.7037037037037,104,96.2962962962963,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,97,fully observed,108,8,7.40740740740741,100,92.5925925925926,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,98,fully observed,108,8,7.40740740740741,100,92.5925925925926,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,99,fully observed,108,15,13.8888888888889,93,86.1111111111111,0,0,exact,exact,exact,80,4,3
+AWUE,20% below 2015,100,median itself outside tested population range,108,72,66.6666666666667,36,33.3333333333333,0,0,below_tested_range,below_tested_range,exact,80,4,3
+AWT,0%,45,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,46,median itself outside tested population range,108,0,0,3,2.77777777777778,105,97.2222222222222,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,47,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,48,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,49,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,50,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,51,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,52,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,53,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,54,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,55,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,56,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,57,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,58,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,59,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,60,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,61,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,62,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,63,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,64,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,0,5,1
+AWT,0%,65,median itself outside tested population range,108,0,0,28,25.9259259259259,80,74.0740740740741,above_tested_range,exact,above_tested_range,0,5,1
+AWT,0%,66,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,0,5,1
+AWT,0%,67,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,0,5,1
+AWT,0%,68,median itself outside tested population range,108,0,0,39,36.1111111111111,69,63.8888888888889,above_tested_range,exact,above_tested_range,0,5,1
+AWT,0%,69,median itself outside tested population range,108,0,0,48,44.4444444444444,60,55.5555555555556,above_tested_range,exact,above_tested_range,0,5,1
+AWT,0%,70,median observed but IQR partly outside tested population range,108,0,0,64,59.2592592592593,44,40.7407407407407,exact,exact,above_tested_range,0,5,1
+AWT,0%,71,median observed but IQR partly outside tested population range,108,0,0,72,66.6666666666667,36,33.3333333333333,exact,exact,above_tested_range,0,5,1
+AWT,0%,72,median observed but IQR partly outside tested population range,108,0,0,72,66.6666666666667,36,33.3333333333333,exact,exact,above_tested_range,0,5,1
+AWT,0%,73,fully observed,108,0,0,87,80.5555555555556,21,19.4444444444444,exact,exact,exact,0,5,1
+AWT,0%,74,fully observed,108,0,0,90,83.3333333333333,18,16.6666666666667,exact,exact,exact,0,5,1
+AWT,0%,75,fully observed,108,0,0,90,83.3333333333333,18,16.6666666666667,exact,exact,exact,0,5,1
+AWT,0%,76,fully observed,108,0,0,102,94.4444444444444,6,5.55555555555556,exact,exact,exact,0,5,1
+AWT,0%,77,fully observed,108,0,0,102,94.4444444444444,6,5.55555555555556,exact,exact,exact,0,5,1
+AWT,0%,78,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,79,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,80,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,81,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,82,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,83,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,84,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,85,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,86,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,87,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,88,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,89,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,90,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,91,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,92,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,93,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,5,1
+AWT,0%,94,fully observed,108,4,3.7037037037037,104,96.2962962962963,0,0,exact,exact,exact,0,5,1
+AWT,0%,95,fully observed,108,6,5.55555555555556,102,94.4444444444444,0,0,exact,exact,exact,0,5,1
+AWT,0%,96,fully observed,108,12,11.1111111111111,96,88.8888888888889,0,0,exact,exact,exact,0,5,1
+AWT,0%,97,fully observed,108,18,16.6666666666667,90,83.3333333333333,0,0,exact,exact,exact,0,5,1
+AWT,0%,98,fully observed,108,18,16.6666666666667,90,83.3333333333333,0,0,exact,exact,exact,0,5,1
+AWT,0%,99,median observed but IQR partly outside tested population range,108,39,36.1111111111111,69,63.8888888888889,0,0,exact,below_tested_range,exact,0,5,1
+AWT,0%,100,median itself outside tested population range,108,108,100,0,0,0,0,below_tested_range,below_tested_range,below_tested_range,0,5,1
+AWT,50%,45,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,46,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,47,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,48,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,49,median itself outside tested population range,108,0,0,3,2.77777777777778,105,97.2222222222222,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,50,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,51,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,52,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,53,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,54,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,55,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,56,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,57,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,58,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,59,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,60,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,61,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,62,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,63,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,64,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,65,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,66,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,67,median itself outside tested population range,108,0,0,22,20.3703703703704,86,79.6296296296296,above_tested_range,above_tested_range,above_tested_range,50,5,2
+AWT,50%,68,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,50,5,2
+AWT,50%,69,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,50,5,2
+AWT,50%,70,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,50,5,2
+AWT,50%,71,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,50,5,2
+AWT,50%,72,median itself outside tested population range,108,0,0,42,38.8888888888889,66,61.1111111111111,above_tested_range,exact,above_tested_range,50,5,2
+AWT,50%,73,median itself outside tested population range,108,0,0,51,47.2222222222222,57,52.7777777777778,above_tested_range,exact,above_tested_range,50,5,2
+AWT,50%,74,median observed but IQR partly outside tested population range,108,0,0,60,55.5555555555556,48,44.4444444444444,exact,exact,above_tested_range,50,5,2
+AWT,50%,75,median observed but IQR partly outside tested population range,108,0,0,72,66.6666666666667,36,33.3333333333333,exact,exact,above_tested_range,50,5,2
+AWT,50%,76,median observed but IQR partly outside tested population range,108,0,0,72,66.6666666666667,36,33.3333333333333,exact,exact,above_tested_range,50,5,2
+AWT,50%,77,fully observed,108,0,0,90,83.3333333333333,18,16.6666666666667,exact,exact,exact,50,5,2
+AWT,50%,78,fully observed,108,0,0,102,94.4444444444444,6,5.55555555555556,exact,exact,exact,50,5,2
+AWT,50%,79,fully observed,108,0,0,102,94.4444444444444,6,5.55555555555556,exact,exact,exact,50,5,2
+AWT,50%,80,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,81,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,82,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,83,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,84,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,85,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,86,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,87,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,88,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,89,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,90,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,91,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,92,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,93,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,94,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,95,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,96,fully observed,108,0,0,108,100,0,0,exact,exact,exact,50,5,2
+AWT,50%,97,fully observed,108,6,5.55555555555556,102,94.4444444444444,0,0,exact,exact,exact,50,5,2
+AWT,50%,98,fully observed,108,6,5.55555555555556,102,94.4444444444444,0,0,exact,exact,exact,50,5,2
+AWT,50%,99,fully observed,108,6,5.55555555555556,102,94.4444444444444,0,0,exact,exact,exact,50,5,2
+AWT,50%,100,median itself outside tested population range,108,84,77.7777777777778,24,22.2222222222222,0,0,below_tested_range,below_tested_range,below_tested_range,50,5,2
+AWT,100%,45,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,46,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,47,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,48,median itself outside tested population range,108,0,0,1,0.925925925925926,107,99.0740740740741,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,49,median itself outside tested population range,108,0,0,3,2.77777777777778,105,97.2222222222222,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,50,median itself outside tested population range,108,0,0,5,4.62962962962963,103,95.3703703703704,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,51,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,52,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,53,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,54,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,55,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,56,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,57,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,58,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,59,median itself outside tested population range,108,0,0,8,7.40740740740741,100,92.5925925925926,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,60,median itself outside tested population range,108,0,0,10,9.25925925925926,98,90.7407407407407,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,61,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,62,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,63,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,64,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,65,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,66,median itself outside tested population range,108,0,0,15,13.8888888888889,93,86.1111111111111,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,67,median itself outside tested population range,108,0,0,24,22.2222222222222,84,77.7777777777778,above_tested_range,above_tested_range,above_tested_range,100,5,3
+AWT,100%,68,median itself outside tested population range,108,0,0,34,31.4814814814815,74,68.5185185185185,above_tested_range,exact,above_tested_range,100,5,3
+AWT,100%,69,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,100,5,3
+AWT,100%,70,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,100,5,3
+AWT,100%,71,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,100,5,3
+AWT,100%,72,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,100,5,3
+AWT,100%,73,median itself outside tested population range,108,0,0,38,35.1851851851852,70,64.8148148148148,above_tested_range,exact,above_tested_range,100,5,3
+AWT,100%,74,median itself outside tested population range,108,0,0,40,37.037037037037,68,62.962962962963,above_tested_range,exact,above_tested_range,100,5,3
+AWT,100%,75,median itself outside tested population range,108,0,0,48,44.4444444444444,60,55.5555555555556,above_tested_range,exact,above_tested_range,100,5,3
+AWT,100%,76,median itself outside tested population range,108,0,0,54,50,54,50,not_exactly_identifiable,exact,above_tested_range,100,5,3
+AWT,100%,77,median observed but IQR partly outside tested population range,108,0,0,63,58.3333333333333,45,41.6666666666667,exact,exact,above_tested_range,100,5,3
+AWT,100%,78,median observed but IQR partly outside tested population range,108,0,0,75,69.4444444444445,33,30.5555555555556,exact,exact,above_tested_range,100,5,3
+AWT,100%,79,fully observed,108,0,0,84,77.7777777777778,24,22.2222222222222,exact,exact,exact,100,5,3
+AWT,100%,80,fully observed,108,0,0,96,88.8888888888889,12,11.1111111111111,exact,exact,exact,100,5,3
+AWT,100%,81,fully observed,108,0,0,102,94.4444444444444,6,5.55555555555556,exact,exact,exact,100,5,3
+AWT,100%,82,fully observed,108,0,0,106,98.1481481481482,2,1.85185185185185,exact,exact,exact,100,5,3
+AWT,100%,83,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,84,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,85,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,86,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,87,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,88,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,89,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,90,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,91,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,92,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,93,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,94,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,95,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,96,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,97,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,98,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,99,fully observed,108,0,0,108,100,0,0,exact,exact,exact,100,5,3
+AWT,100%,100,fully observed,108,24,22.2222222222222,84,77.7777777777778,0,0,exact,exact,exact,100,5,3
+Supply augmentation,0%,45,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,0,6,1
+Supply augmentation,0%,46,median itself outside tested population range,108,0,0,3,2.77777777777778,105,97.2222222222222,above_tested_range,above_tested_range,above_tested_range,0,6,1
+Supply augmentation,0%,47,median itself outside tested population range,108,0,0,6,5.55555555555556,102,94.4444444444444,above_tested_range,above_tested_range,above_tested_range,0,6,1
+Supply augmentation,0%,48,median itself outside tested population range,108,0,0,7,6.48148148148148,101,93.5185185185185,above_tested_range,above_tested_range,above_tested_range,0,6,1
+Supply augmentation,0%,49,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,0,6,1
+Supply augmentation,0%,50,median itself outside tested population range,108,0,0,17,15.7407407407407,91,84.2592592592593,above_tested_range,above_tested_range,above_tested_range,0,6,1
+Supply augmentation,0%,51,median itself outside tested population range,108,0,0,18,16.6666666666667,90,83.3333333333333,above_tested_range,above_tested_range,above_tested_range,0,6,1
+Supply augmentation,0%,52,median itself outside tested population range,108,0,0,18,16.6666666666667,90,83.3333333333333,above_tested_range,above_tested_range,above_tested_range,0,6,1
+Supply augmentation,0%,53,median itself outside tested population range,108,0,0,18,16.6666666666667,90,83.3333333333333,above_tested_range,above_tested_range,above_tested_range,0,6,1
+Supply augmentation,0%,54,median itself outside tested population range,108,0,0,18,16.6666666666667,90,83.3333333333333,above_tested_range,above_tested_range,above_tested_range,0,6,1
+Supply augmentation,0%,55,median itself outside tested population range,108,0,0,18,16.6666666666667,90,83.3333333333333,above_tested_range,above_tested_range,above_tested_range,0,6,1
+Supply augmentation,0%,56,median itself outside tested population range,108,0,0,24,22.2222222222222,84,77.7777777777778,above_tested_range,above_tested_range,above_tested_range,0,6,1
+Supply augmentation,0%,57,median itself outside tested population range,108,0,0,24,22.2222222222222,84,77.7777777777778,above_tested_range,above_tested_range,above_tested_range,0,6,1
+Supply augmentation,0%,58,median itself outside tested population range,108,0,0,24,22.2222222222222,84,77.7777777777778,above_tested_range,above_tested_range,above_tested_range,0,6,1
+Supply augmentation,0%,59,median itself outside tested population range,108,0,0,26,24.0740740740741,82,75.9259259259259,above_tested_range,above_tested_range,above_tested_range,0,6,1
+Supply augmentation,0%,60,median itself outside tested population range,108,0,0,34,31.4814814814815,74,68.5185185185185,above_tested_range,exact,above_tested_range,0,6,1
+Supply augmentation,0%,61,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,0,6,1
+Supply augmentation,0%,62,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,0,6,1
+Supply augmentation,0%,63,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,0,6,1
+Supply augmentation,0%,64,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,0,6,1
+Supply augmentation,0%,65,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,0,6,1
+Supply augmentation,0%,66,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,0,6,1
+Supply augmentation,0%,67,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,0,6,1
+Supply augmentation,0%,68,median itself outside tested population range,108,0,0,39,36.1111111111111,69,63.8888888888889,above_tested_range,exact,above_tested_range,0,6,1
+Supply augmentation,0%,69,median itself outside tested population range,108,0,0,48,44.4444444444444,60,55.5555555555556,above_tested_range,exact,above_tested_range,0,6,1
+Supply augmentation,0%,70,median itself outside tested population range,108,0,0,54,50,54,50,not_exactly_identifiable,exact,above_tested_range,0,6,1
+Supply augmentation,0%,71,median itself outside tested population range,108,0,0,54,50,54,50,not_exactly_identifiable,exact,above_tested_range,0,6,1
+Supply augmentation,0%,72,median observed but IQR partly outside tested population range,108,0,0,60,55.5555555555556,48,44.4444444444444,exact,exact,above_tested_range,0,6,1
+Supply augmentation,0%,73,median observed but IQR partly outside tested population range,108,0,0,74,68.5185185185185,34,31.4814814814815,exact,exact,above_tested_range,0,6,1
+Supply augmentation,0%,74,fully observed,108,0,0,82,75.9259259259259,26,24.0740740740741,exact,exact,exact,0,6,1
+Supply augmentation,0%,75,fully observed,108,0,0,88,81.4814814814815,20,18.5185185185185,exact,exact,exact,0,6,1
+Supply augmentation,0%,76,fully observed,108,0,0,89,82.4074074074074,19,17.5925925925926,exact,exact,exact,0,6,1
+Supply augmentation,0%,77,fully observed,108,0,0,100,92.5925925925926,8,7.40740740740741,exact,exact,exact,0,6,1
+Supply augmentation,0%,78,fully observed,108,0,0,105,97.2222222222222,3,2.77777777777778,exact,exact,exact,0,6,1
+Supply augmentation,0%,79,fully observed,108,0,0,106,98.1481481481482,2,1.85185185185185,exact,exact,exact,0,6,1
+Supply augmentation,0%,80,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,81,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,82,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,83,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,84,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,85,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,86,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,87,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,88,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,89,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,90,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,91,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,92,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,93,fully observed,108,0,0,108,100,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,94,fully observed,108,4,3.7037037037037,104,96.2962962962963,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,95,fully observed,108,6,5.55555555555556,102,94.4444444444444,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,96,fully observed,108,12,11.1111111111111,96,88.8888888888889,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,97,fully observed,108,18,16.6666666666667,90,83.3333333333333,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,98,fully observed,108,18,16.6666666666667,90,83.3333333333333,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,99,fully observed,108,21,19.4444444444444,87,80.5555555555556,0,0,exact,exact,exact,0,6,1
+Supply augmentation,0%,100,median itself outside tested population range,108,84,77.7777777777778,24,22.2222222222222,0,0,below_tested_range,below_tested_range,below_tested_range,0,6,1
+Supply augmentation,10%,45,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,46,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,47,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,48,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,49,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,50,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,51,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,52,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,53,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,54,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,55,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,56,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,57,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,58,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,59,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,60,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,61,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,62,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,63,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,64,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,65,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,66,median itself outside tested population range,108,0,0,15,13.8888888888889,93,86.1111111111111,above_tested_range,above_tested_range,above_tested_range,10,6,2
+Supply augmentation,10%,67,median itself outside tested population range,108,0,0,30,27.7777777777778,78,72.2222222222222,above_tested_range,exact,above_tested_range,10,6,2
+Supply augmentation,10%,68,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,10,6,2
+Supply augmentation,10%,69,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,10,6,2
+Supply augmentation,10%,70,median itself outside tested population range,108,0,0,46,42.5925925925926,62,57.4074074074074,above_tested_range,exact,above_tested_range,10,6,2
+Supply augmentation,10%,71,median itself outside tested population range,108,0,0,48,44.4444444444444,60,55.5555555555556,above_tested_range,exact,above_tested_range,10,6,2
+Supply augmentation,10%,72,median itself outside tested population range,108,0,0,48,44.4444444444444,60,55.5555555555556,above_tested_range,exact,above_tested_range,10,6,2
+Supply augmentation,10%,73,median itself outside tested population range,108,0,0,54,50,54,50,not_exactly_identifiable,exact,above_tested_range,10,6,2
+Supply augmentation,10%,74,median observed but IQR partly outside tested population range,108,0,0,60,55.5555555555556,48,44.4444444444444,exact,exact,above_tested_range,10,6,2
+Supply augmentation,10%,75,median observed but IQR partly outside tested population range,108,0,0,68,62.962962962963,40,37.037037037037,exact,exact,above_tested_range,10,6,2
+Supply augmentation,10%,76,median observed but IQR partly outside tested population range,108,0,0,78,72.2222222222222,30,27.7777777777778,exact,exact,above_tested_range,10,6,2
+Supply augmentation,10%,77,fully observed,108,0,0,87,80.5555555555556,21,19.4444444444444,exact,exact,exact,10,6,2
+Supply augmentation,10%,78,fully observed,108,0,0,96,88.8888888888889,12,11.1111111111111,exact,exact,exact,10,6,2
+Supply augmentation,10%,79,fully observed,108,0,0,100,92.5925925925926,8,7.40740740740741,exact,exact,exact,10,6,2
+Supply augmentation,10%,80,fully observed,108,0,0,106,98.1481481481482,2,1.85185185185185,exact,exact,exact,10,6,2
+Supply augmentation,10%,81,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,82,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,83,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,84,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,85,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,86,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,87,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,88,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,89,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,90,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,91,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,92,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,93,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,94,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,95,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,96,fully observed,108,0,0,108,100,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,97,fully observed,108,6,5.55555555555556,102,94.4444444444444,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,98,fully observed,108,6,5.55555555555556,102,94.4444444444444,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,99,fully observed,108,12,11.1111111111111,96,88.8888888888889,0,0,exact,exact,exact,10,6,2
+Supply augmentation,10%,100,median itself outside tested population range,108,72,66.6666666666667,36,33.3333333333333,0,0,below_tested_range,below_tested_range,exact,10,6,2
+Supply augmentation,20%,45,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,46,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,47,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,48,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,49,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,50,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,51,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,52,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,53,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,54,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,55,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,56,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,57,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,58,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,59,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,60,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,61,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,62,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,63,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,64,median itself outside tested population range,108,0,0,0,0,108,100,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,65,median itself outside tested population range,108,0,0,4,3.7037037037037,104,96.2962962962963,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,66,median itself outside tested population range,108,0,0,12,11.1111111111111,96,88.8888888888889,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,67,median itself outside tested population range,108,0,0,16,14.8148148148148,92,85.1851851851852,above_tested_range,above_tested_range,above_tested_range,20,6,3
+Supply augmentation,20%,68,median itself outside tested population range,108,0,0,34,31.4814814814815,74,68.5185185185185,above_tested_range,exact,above_tested_range,20,6,3
+Supply augmentation,20%,69,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,20,6,3
+Supply augmentation,20%,70,median itself outside tested population range,108,0,0,36,33.3333333333333,72,66.6666666666667,above_tested_range,exact,above_tested_range,20,6,3
+Supply augmentation,20%,71,median itself outside tested population range,108,0,0,42,38.8888888888889,66,61.1111111111111,above_tested_range,exact,above_tested_range,20,6,3
+Supply augmentation,20%,72,median itself outside tested population range,108,0,0,42,38.8888888888889,66,61.1111111111111,above_tested_range,exact,above_tested_range,20,6,3
+Supply augmentation,20%,73,median itself outside tested population range,108,0,0,48,44.4444444444444,60,55.5555555555556,above_tested_range,exact,above_tested_range,20,6,3
+Supply augmentation,20%,74,median itself outside tested population range,108,0,0,48,44.4444444444444,60,55.5555555555556,above_tested_range,exact,above_tested_range,20,6,3
+Supply augmentation,20%,75,median itself outside tested population range,108,0,0,54,50,54,50,not_exactly_identifiable,exact,above_tested_range,20,6,3
+Supply augmentation,20%,76,median observed but IQR partly outside tested population range,108,0,0,61,56.4814814814815,47,43.5185185185185,exact,exact,above_tested_range,20,6,3
+Supply augmentation,20%,77,median observed but IQR partly outside tested population range,108,0,0,68,62.962962962963,40,37.037037037037,exact,exact,above_tested_range,20,6,3
+Supply augmentation,20%,78,fully observed,108,0,0,84,77.7777777777778,24,22.2222222222222,exact,exact,exact,20,6,3
+Supply augmentation,20%,79,fully observed,108,0,0,88,81.4814814814815,20,18.5185185185185,exact,exact,exact,20,6,3
+Supply augmentation,20%,80,fully observed,108,0,0,98,90.7407407407407,10,9.25925925925926,exact,exact,exact,20,6,3
+Supply augmentation,20%,81,fully observed,108,0,0,102,94.4444444444444,6,5.55555555555556,exact,exact,exact,20,6,3
+Supply augmentation,20%,82,fully observed,108,0,0,106,98.1481481481482,2,1.85185185185185,exact,exact,exact,20,6,3
+Supply augmentation,20%,83,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,84,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,85,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,86,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,87,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,88,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,89,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,90,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,91,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,92,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,93,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,94,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,95,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,96,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,97,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,98,fully observed,108,0,0,108,100,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,99,fully observed,108,12,11.1111111111111,96,88.8888888888889,0,0,exact,exact,exact,20,6,3
+Supply augmentation,20%,100,median itself outside tested population range,108,60,55.5555555555556,48,44.4444444444444,0,0,below_tested_range,below_tested_range,exact,20,6,3

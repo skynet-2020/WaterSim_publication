@@ -1,0 +1,30 @@
+REPOSITORY CLEANUP RECORD - 2026-10-10
+======================================
+
+Authority
+---------
+The current manuscript and supplementary-material Word documents were used as
+the authority for figure numbering and final artwork.
+
+Changes
+-------
+- Promoted the ribbon frontier analysis to current Figure 5.
+- Promoted the expanded six-factor heatmap to current Figure 6.
+- Renumbered reservoir storage as current Figure 7.
+- Separated final supplementary figures from main-text figures.
+- Preserved the former violin Figure 5 in archive/legacy_figure_5/.
+- Consolidated the matched analysis under internal_validation/matched_frontier/.
+- Retained the Figure 5 boundary audit under internal_validation/frontier_bounds/.
+- Retained the overall feasibility heatmap under additional_analysis/.
+- Removed superseded prototypes and duplicated intermediate outputs from the
+  active package. A complete pre-cleanup snapshot is held outside this Git
+  working tree in the dissertation Chapter 5 cleanup workspace.
+- Updated documentation and reproduction paths to match manuscript version 4.
+
+Publication status
+------------------
+The matched analysis is an internal verification tool and is not part of the
+current manuscript. It is retained for possible reviewer requests or a later
+manuscript revision.
+
+No Git commit or push was performed as part of this cleanup step.

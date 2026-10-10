@@ -1,0 +1,321 @@
+factor_group,factor_level,gsi_threshold,q25_population_millions,median_population_millions,q75_population_millions,n_background_combinations,n_observed_frontiers,n_above_range,n_below_range
+Climate conditions,Reference river flows,79,7.057565,8.289658,8.768805,162,140,22,0
+Climate conditions,Reference river flows,80,6.920669,7.878963,8.631904,162,152,10,0
+Climate conditions,Reference river flows,81,6.783768,7.605166,8.495008,162,158,4,0
+Climate conditions,Reference river flows,82,6.64687,7.331363,8.221211,162,160,2,0
+Climate conditions,Reference river flows,83,6.57842,7.262915,7.947411,162,162,0,0
+Climate conditions,Reference river flows,84,6.44152,7.126015,7.673613,162,162,0,0
+Climate conditions,Reference river flows,85,6.373072,7.057565,7.605166,162,162,0,0
+Climate conditions,Reference river flows,86,6.236169,6.920669,7.536713,162,162,0,0
+Climate conditions,Reference river flows,87,6.099274,6.715318,7.468264,162,162,0,0
+Climate conditions,Reference river flows,88,5.893925,6.509972,7.331363,162,162,0,0
+Climate conditions,Reference river flows,89,5.757036,6.373072,7.126015,162,162,0,0
+Climate conditions,Reference river flows,90,5.620128,6.167723,6.989118,162,162,0,0
+Climate conditions,Reference river flows,91,5.483227,6.030826,6.852219,162,162,0,0
+Climate conditions,Reference river flows,92,5.34633,5.893925,6.715318,162,162,0,0
+Climate conditions,Reference river flows,93,5.209429,5.757036,6.57842,162,162,0,0
+Climate conditions,Reference river flows,94,5.140982,5.620128,6.373072,162,162,0,0
+Climate conditions,Reference river flows,95,5.004081,5.551677,6.167723,162,162,0,0
+Climate conditions,Reference river flows,96,4.935633,5.414779,5.962376,162,156,0,6
+Climate conditions,Reference river flows,97,4.798736,5.209429,5.825474,162,156,0,6
+Climate conditions,Reference river flows,98,4.661834,5.004081,5.414779,162,156,0,6
+Climate conditions,Reduced river flows,79,6.8693315,7.673613,8.52923175,162,154,8,0
+Climate conditions,Reduced river flows,80,6.715318,7.5709395,8.426556,162,160,2,0
+Climate conditions,Reduced river flows,81,6.57842,7.468264,8.3409955,162,160,2,0
+Climate conditions,Reduced river flows,82,6.509972,7.331363,8.20409825,162,162,0,0
+Climate conditions,Reduced river flows,83,6.373072,7.057565,7.878963,162,162,0,0
+Climate conditions,Reduced river flows,84,6.236169,6.783768,7.673613,162,162,0,0
+Climate conditions,Reduced river flows,85,6.167723,6.715318,7.399815,162,162,0,0
+Climate conditions,Reduced river flows,86,6.030826,6.57842,7.262915,162,162,0,0
+Climate conditions,Reduced river flows,87,5.962376,6.44152,7.126015,162,162,0,0
+Climate conditions,Reduced river flows,88,5.825474,6.373072,7.04045325,162,162,0,0
+Climate conditions,Reduced river flows,89,5.688579,6.236169,6.920669,162,162,0,0
+Climate conditions,Reduced river flows,90,5.551677,6.167723,6.852219,162,162,0,0
+Climate conditions,Reduced river flows,91,5.414779,6.030826,6.783768,162,162,0,0
+Climate conditions,Reduced river flows,92,5.2949955,5.893925,6.64687,162,162,0,0
+Climate conditions,Reduced river flows,93,5.209429,5.757036,6.57842,162,162,0,0
+Climate conditions,Reduced river flows,94,5.072533,5.620128,6.373072,162,158,0,4
+Climate conditions,Reduced river flows,95,4.935633,5.483227,6.167723,162,156,0,6
+Climate conditions,Reduced river flows,96,4.798736,5.34633,5.962376,162,156,0,6
+Climate conditions,Reduced river flows,97,4.661834,5.209429,5.825474,162,144,0,18
+Climate conditions,Reduced river flows,98,4.593384,4.935633,5.277884,162,144,0,18
+Environmental-flow allocation,0 AF,79,6.920669,8.015859,8.631904,162,147,15,0
+Environmental-flow allocation,0 AF,80,6.783768,7.844738,8.54634475,162,156,6,0
+Environmental-flow allocation,0 AF,81,6.715318,7.605166,8.409444,162,159,3,0
+Environmental-flow allocation,0 AF,82,6.57842,7.331363,8.221211,162,161,1,0
+Environmental-flow allocation,0 AF,83,6.509972,7.126015,7.947411,162,162,0,0
+Environmental-flow allocation,0 AF,84,6.44152,6.9548935,7.673613,162,162,0,0
+Environmental-flow allocation,0 AF,85,6.304624,6.920669,7.536713,162,162,0,0
+Environmental-flow allocation,0 AF,86,6.167723,6.783768,7.45115175,162,162,0,0
+Environmental-flow allocation,0 AF,87,6.030826,6.715318,7.314251,162,162,0,0
+Environmental-flow allocation,0 AF,88,5.893925,6.509972,7.24580225,162,162,0,0
+Environmental-flow allocation,0 AF,89,5.757036,6.304624,7.126015,162,162,0,0
+Environmental-flow allocation,0 AF,90,5.620128,6.167723,6.989118,162,162,0,0
+Environmental-flow allocation,0 AF,91,5.483227,6.030826,6.83510625,162,162,0,0
+Environmental-flow allocation,0 AF,92,5.34633,5.893925,6.698206,162,162,0,0
+Environmental-flow allocation,0 AF,93,5.209429,5.757036,6.57842,162,162,0,0
+Environmental-flow allocation,0 AF,94,5.072533,5.620128,6.373072,162,161,0,1
+Environmental-flow allocation,0 AF,95,5.004081,5.551677,6.167723,162,159,0,3
+Environmental-flow allocation,0 AF,96,4.867183,5.414779,5.962376,162,156,0,6
+Environmental-flow allocation,0 AF,97,4.798736,5.209429,5.825474,162,150,0,12
+Environmental-flow allocation,0 AF,98,4.661834,4.935633,5.38055525,162,150,0,12
+Environmental-flow allocation,"80,000 AF",79,6.920669,7.947411,8.631904,162,147,15,0
+Environmental-flow allocation,"80,000 AF",80,6.783768,7.810513,8.495008,162,156,6,0
+Environmental-flow allocation,"80,000 AF",81,6.64687,7.605166,8.358108,162,159,3,0
+Environmental-flow allocation,"80,000 AF",82,6.57842,7.331363,8.221211,162,161,1,0
+Environmental-flow allocation,"80,000 AF",83,6.509972,7.057565,7.947411,162,162,0,0
+Environmental-flow allocation,"80,000 AF",84,6.373072,6.9548935,7.673613,162,162,0,0
+Environmental-flow allocation,"80,000 AF",85,6.304624,6.852219,7.536713,162,162,0,0
+Environmental-flow allocation,"80,000 AF",86,6.167723,6.783768,7.399815,162,162,0,0
+Environmental-flow allocation,"80,000 AF",87,6.030826,6.64687,7.314251,162,162,0,0
+Environmental-flow allocation,"80,000 AF",88,5.84258675,6.509972,7.194464,162,162,0,0
+Environmental-flow allocation,"80,000 AF",89,5.757036,6.304624,7.126015,162,162,0,0
+Environmental-flow allocation,"80,000 AF",90,5.620128,6.167723,6.989118,162,162,0,0
+Environmental-flow allocation,"80,000 AF",91,5.483227,6.030826,6.83510625,162,162,0,0
+Environmental-flow allocation,"80,000 AF",92,5.34633,5.893925,6.698206,162,162,0,0
+Environmental-flow allocation,"80,000 AF",93,5.209429,5.757036,6.57842,162,162,0,0
+Environmental-flow allocation,"80,000 AF",94,5.072533,5.620128,6.373072,162,159,0,3
+Environmental-flow allocation,"80,000 AF",95,5.004081,5.517452,6.167723,162,159,0,3
+Environmental-flow allocation,"80,000 AF",96,4.867183,5.414779,5.962376,162,156,0,6
+Environmental-flow allocation,"80,000 AF",97,4.798736,5.209429,5.825474,162,150,0,12
+Environmental-flow allocation,"80,000 AF",98,4.661834,4.935633,5.38055525,162,150,0,12
+Municipal water-use efficiency,3.2% reduction,79,8.358108,8.700359,9.042603,108,84,24,0
+Municipal water-use efficiency,3.2% reduction,80,8.015859,8.563457,8.905702,108,98,10,0
+Municipal water-use efficiency,3.2% reduction,81,7.673613,8.426556,8.700359,108,102,6,0
+Municipal water-use efficiency,3.2% reduction,82,7.331363,8.221211,8.563457,108,106,2,0
+Municipal water-use efficiency,3.2% reduction,83,7.057565,7.947411,8.358108,108,108,0,0
+Municipal water-use efficiency,3.2% reduction,84,6.783768,7.605166,8.15276,108,108,0,0
+Municipal water-use efficiency,3.2% reduction,85,6.57842,7.331363,7.947411,108,108,0,0
+Municipal water-use efficiency,3.2% reduction,86,6.373072,7.126015,7.742064,108,108,0,0
+Municipal water-use efficiency,3.2% reduction,87,6.167723,6.852219,7.536713,108,108,0,0
+Municipal water-use efficiency,3.2% reduction,88,5.962376,6.64687,7.331363,108,108,0,0
+Municipal water-use efficiency,3.2% reduction,89,5.757036,6.44152,7.194464,108,108,0,0
+Municipal water-use efficiency,3.2% reduction,90,5.620128,6.236169,7.057565,108,108,0,0
+Municipal water-use efficiency,3.2% reduction,91,5.483227,6.099274,6.989118,108,108,0,0
+Municipal water-use efficiency,3.2% reduction,92,5.34633,5.962376,6.852219,108,108,0,0
+Municipal water-use efficiency,3.2% reduction,93,5.209429,5.757036,6.715318,108,108,0,0
+Municipal water-use efficiency,3.2% reduction,94,5.072533,5.620128,6.57842,108,108,0,0
+Municipal water-use efficiency,3.2% reduction,95,5.004081,5.483227,6.44152,108,108,0,0
+Municipal water-use efficiency,3.2% reduction,96,4.867183,5.34633,6.304624,108,108,0,0
+Municipal water-use efficiency,3.2% reduction,97,4.798736,5.140982,6.030826,108,108,0,0
+Municipal water-use efficiency,3.2% reduction,98,4.730285,5.004081,5.620128,108,108,0,0
+Municipal water-use efficiency,25% reduction,79,6.304624,6.64687,6.989118,108,108,0,0
+Municipal water-use efficiency,25% reduction,80,6.167723,6.509972,6.920669,108,108,0,0
+Municipal water-use efficiency,25% reduction,81,6.082162,6.373072,6.7324305,108,108,0,0
+Municipal water-use efficiency,25% reduction,82,5.962376,6.2703965,6.64687,108,108,0,0
+Municipal water-use efficiency,25% reduction,83,5.893925,6.167723,6.509972,108,108,0,0
+Municipal water-use efficiency,25% reduction,84,5.8083645,6.06505,6.373072,108,108,0,0
+Municipal water-use efficiency,25% reduction,85,5.688579,5.962376,6.304624,108,108,0,0
+Municipal water-use efficiency,25% reduction,86,5.620128,5.893925,6.236169,108,108,0,0
+Municipal water-use efficiency,25% reduction,87,5.551677,5.825474,6.099274,108,108,0,0
+Municipal water-use efficiency,25% reduction,88,5.414779,5.757036,6.030826,108,108,0,0
+Municipal water-use efficiency,25% reduction,89,5.34633,5.688579,5.962376,108,108,0,0
+Municipal water-use efficiency,25% reduction,90,5.209429,5.5859025,5.825474,108,108,0,0
+Municipal water-use efficiency,25% reduction,91,5.140982,5.483227,5.757036,108,108,0,0
+Municipal water-use efficiency,25% reduction,92,5.072533,5.34633,5.688579,108,108,0,0
+Municipal water-use efficiency,25% reduction,93,5.004081,5.209429,5.620128,108,108,0,0
+Municipal water-use efficiency,25% reduction,94,4.935633,5.140982,5.551677,108,104,0,4
+Municipal water-use efficiency,25% reduction,95,4.867183,5.004081,5.34633,108,102,0,6
+Municipal water-use efficiency,25% reduction,96,4.661834,4.935633,5.277884,108,96,0,12
+Municipal water-use efficiency,25% reduction,97,4.456488,4.798736,5.209429,108,84,0,24
+Municipal water-use efficiency,25% reduction,98,4.319589,4.456487,5.072533,108,84,0,24
+Municipal water-use efficiency,45% reduction,79,7.673613,8.050084,8.631904,108,102,6,0
+Municipal water-use efficiency,45% reduction,80,7.536713,7.913187,8.495008,108,106,2,0
+Municipal water-use efficiency,45% reduction,81,7.468264,7.7762885,8.289658,108,108,0,0
+Municipal water-use efficiency,45% reduction,82,7.331363,7.6393895,8.221211,108,108,0,0
+Municipal water-use efficiency,45% reduction,83,7.262915,7.536715,8.084309,108,108,0,0
+Municipal water-use efficiency,45% reduction,84,7.126015,7.4340395,8.015859,108,108,0,0
+Municipal water-use efficiency,45% reduction,85,7.057565,7.331365,7.878963,108,108,0,0
+Municipal water-use efficiency,45% reduction,86,6.920669,7.2286895,7.742064,108,108,0,0
+Municipal water-use efficiency,45% reduction,87,6.715318,7.09179,7.673613,108,108,0,0
+Municipal water-use efficiency,45% reduction,88,6.57842,6.989118,7.536713,108,108,0,0
+Municipal water-use efficiency,45% reduction,89,6.373072,6.920669,7.468264,108,108,0,0
+Municipal water-use efficiency,45% reduction,90,6.236169,6.852219,7.331363,108,108,0,0
+Municipal water-use efficiency,45% reduction,91,6.099274,6.783768,7.194464,108,108,0,0
+Municipal water-use efficiency,45% reduction,92,5.962376,6.64687,7.126015,108,108,0,0
+Municipal water-use efficiency,45% reduction,93,5.825474,6.509972,6.989118,108,108,0,0
+Municipal water-use efficiency,45% reduction,94,5.757036,6.236169,6.852219,108,108,0,0
+Municipal water-use efficiency,45% reduction,95,5.620128,6.030826,6.64687,108,108,0,0
+Municipal water-use efficiency,45% reduction,96,5.483227,5.893925,6.509972,108,108,0,0
+Municipal water-use efficiency,45% reduction,97,5.209429,5.757036,6.373072,108,108,0,0
+Municipal water-use efficiency,45% reduction,98,4.661834,5.209429,6.304624,108,108,0,0
+Agricultural water-use efficiency,Current (2015),79,7.057565,8.015859,8.905702,108,90,18,0
+Agricultural water-use efficiency,Current (2015),80,6.920669,7.810513,8.768805,108,100,8,0
+Agricultural water-use efficiency,Current (2015),81,6.783768,7.605166,8.563457,108,104,4,0
+Agricultural water-use efficiency,Current (2015),82,6.715318,7.331363,8.289658,108,106,2,0
+Agricultural water-use efficiency,Current (2015),83,6.57842,7.126015,7.947411,108,108,0,0
+Agricultural water-use efficiency,Current (2015),84,6.44152,6.9548935,7.673613,108,108,0,0
+Agricultural water-use efficiency,Current (2015),85,6.373072,6.920669,7.55382625,108,108,0,0
+Agricultural water-use efficiency,Current (2015),86,6.236169,6.783768,7.41692725,108,108,0,0
+Agricultural water-use efficiency,Current (2015),87,6.030826,6.715318,7.331363,108,108,0,0
+Agricultural water-use efficiency,Current (2015),88,5.893925,6.544196,7.21157675,108,108,0,0
+Agricultural water-use efficiency,Current (2015),89,5.757036,6.407296,7.126015,108,108,0,0
+Agricultural water-use efficiency,Current (2015),90,5.620128,6.201946,7.057565,108,108,0,0
+Agricultural water-use efficiency,Current (2015),91,5.483227,6.030826,6.920669,108,108,0,0
+Agricultural water-use efficiency,Current (2015),92,5.34633,5.9281505,6.715318,108,108,0,0
+Agricultural water-use efficiency,Current (2015),93,5.209429,5.791255,6.57842,108,108,0,0
+Agricultural water-use efficiency,Current (2015),94,5.072533,5.6543535,6.373072,108,107,0,1
+Agricultural water-use efficiency,Current (2015),95,5.004081,5.551677,6.167723,108,106,0,2
+Agricultural water-use efficiency,Current (2015),96,4.935633,5.449003,5.962376,108,104,0,4
+Agricultural water-use efficiency,Current (2015),97,4.798736,5.2436565,5.825474,108,100,0,8
+Agricultural water-use efficiency,Current (2015),98,4.661834,5.004081,5.551677,108,100,0,8
+Agricultural water-use efficiency,10% below 2015,79,6.920669,7.947411,8.631904,108,100,8,0
+Agricultural water-use efficiency,10% below 2015,80,6.783768,7.810513,8.563457,108,106,2,0
+Agricultural water-use efficiency,10% below 2015,81,6.698206,7.605166,8.37522,108,106,2,0
+Agricultural water-use efficiency,10% below 2015,82,6.57842,7.331363,8.221211,108,108,0,0
+Agricultural water-use efficiency,10% below 2015,83,6.509972,7.057565,7.947411,108,108,0,0
+Agricultural water-use efficiency,10% below 2015,84,6.373072,6.9206685,7.673613,108,108,0,0
+Agricultural water-use efficiency,10% below 2015,85,6.304624,6.7837685,7.536713,108,108,0,0
+Agricultural water-use efficiency,10% below 2015,86,6.167723,6.681094,7.41692725,108,108,0,0
+Agricultural water-use efficiency,10% below 2015,87,6.030826,6.578421,7.331363,108,108,0,0
+Agricultural water-use efficiency,10% below 2015,88,5.87681225,6.475746,7.21157675,108,108,0,0
+Agricultural water-use efficiency,10% below 2015,89,5.757036,6.304624,7.126015,108,108,0,0
+Agricultural water-use efficiency,10% below 2015,90,5.620128,6.167723,7.057565,108,108,0,0
+Agricultural water-use efficiency,10% below 2015,91,5.483227,6.030826,6.852219,108,108,0,0
+Agricultural water-use efficiency,10% below 2015,92,5.34633,5.893925,6.715318,108,108,0,0
+Agricultural water-use efficiency,10% below 2015,93,5.209429,5.757036,6.57842,108,108,0,0
+Agricultural water-use efficiency,10% below 2015,94,5.072533,5.6543535,6.373072,108,107,0,1
+Agricultural water-use efficiency,10% below 2015,95,5.004081,5.517452,6.167723,108,106,0,2
+Agricultural water-use efficiency,10% below 2015,96,4.867183,5.3805545,5.962376,108,104,0,4
+Agricultural water-use efficiency,10% below 2015,97,4.798736,5.209429,5.825474,108,100,0,8
+Agricultural water-use efficiency,10% below 2015,98,4.661834,4.969857,5.277884,108,100,0,8
+Agricultural water-use efficiency,20% below 2015,79,6.852219,7.947411,8.631904,108,104,4,0
+Agricultural water-use efficiency,20% below 2015,80,6.715318,7.810513,8.426556,108,106,2,0
+Agricultural water-use efficiency,20% below 2015,81,6.57842,7.605166,8.3067705,108,108,0,0
+Agricultural water-use efficiency,20% below 2015,82,6.44152,7.331363,8.15276,108,108,0,0
+Agricultural water-use efficiency,20% below 2015,83,6.35596,7.057565,7.878963,108,108,0,0
+Agricultural water-use efficiency,20% below 2015,84,6.236169,6.886443,7.673613,108,108,0,0
+Agricultural water-use efficiency,20% below 2015,85,6.167723,6.7837685,7.536713,108,108,0,0
+Agricultural water-use efficiency,20% below 2015,86,6.030826,6.681094,7.399815,108,108,0,0
+Agricultural water-use efficiency,20% below 2015,87,5.962376,6.544195,7.262915,108,108,0,0
+Agricultural water-use efficiency,20% below 2015,88,5.825474,6.441522,7.194464,108,108,0,0
+Agricultural water-use efficiency,20% below 2015,89,5.688579,6.2703965,7.057565,108,108,0,0
+Agricultural water-use efficiency,20% below 2015,90,5.551677,6.167723,6.989118,108,108,0,0
+Agricultural water-use efficiency,20% below 2015,91,5.483227,6.030826,6.783768,108,108,0,0
+Agricultural water-use efficiency,20% below 2015,92,5.34633,5.893925,6.64687,108,108,0,0
+Agricultural water-use efficiency,20% below 2015,93,5.209429,5.757036,6.57842,108,108,0,0
+Agricultural water-use efficiency,20% below 2015,94,5.072533,5.620128,6.373072,108,106,0,2
+Agricultural water-use efficiency,20% below 2015,95,5.004081,5.483227,6.167723,108,106,0,2
+Agricultural water-use efficiency,20% below 2015,96,4.867183,5.34633,5.962376,108,104,0,4
+Agricultural water-use efficiency,20% below 2015,97,4.730285,5.140982,5.825474,108,100,0,8
+Agricultural water-use efficiency,20% below 2015,98,4.593384,4.935633,5.209429,108,100,0,8
+Agricultural-to-urban water transfer,0%,79,6.304624,7.3655895,8.289658,108,108,0,0
+Agricultural-to-urban water transfer,0%,80,6.167723,7.2286895,7.878963,108,108,0,0
+Agricultural-to-urban water transfer,0%,81,6.082162,7.057565,7.605166,108,108,0,0
+Agricultural-to-urban water transfer,0%,82,5.962376,6.9548935,7.331363,108,108,0,0
+Agricultural-to-urban water transfer,0%,83,5.893925,6.852219,7.057565,108,108,0,0
+Agricultural-to-urban water transfer,0%,84,5.8083645,6.715318,6.783768,108,108,0,0
+Agricultural-to-urban water transfer,0%,85,5.688579,6.509972,6.57842,108,108,0,0
+Agricultural-to-urban water transfer,0%,86,5.67146625,6.2703965,6.44152,108,108,0,0
+Agricultural-to-urban water transfer,0%,87,5.60301525,6.06505,6.304624,108,108,0,0
+Agricultural-to-urban water transfer,0%,88,5.483227,5.893925,6.236169,108,108,0,0
+Agricultural-to-urban water transfer,0%,89,5.414779,5.757036,6.099274,108,108,0,0
+Agricultural-to-urban water transfer,0%,90,5.277884,5.5859025,6.030826,108,108,0,0
+Agricultural-to-urban water transfer,0%,91,5.209429,5.449003,5.962376,108,108,0,0
+Agricultural-to-urban water transfer,0%,92,5.12386975,5.312107,5.825474,108,108,0,0
+Agricultural-to-urban water transfer,0%,93,5.004081,5.1752055,5.688579,108,108,0,0
+Agricultural-to-urban water transfer,0%,94,4.935633,5.072533,5.551677,108,104,0,4
+Agricultural-to-urban water transfer,0%,95,4.867183,4.935633,5.483227,108,102,0,6
+Agricultural-to-urban water transfer,0%,96,4.798736,4.8329595,5.34633,108,96,0,12
+Agricultural-to-urban water transfer,0%,97,4.6447215,4.730285,5.140982,108,90,0,18
+Agricultural-to-urban water transfer,0%,98,4.37092575,4.593384,4.661834,108,90,0,18
+Agricultural-to-urban water transfer,50%,79,6.852219,8.118535,8.631904,108,102,6,0
+Agricultural-to-urban water transfer,50%,80,6.715318,8.0158615,8.495008,108,108,0,0
+Agricultural-to-urban water transfer,50%,81,6.57842,7.8789615,8.358108,108,108,0,0
+Agricultural-to-urban water transfer,50%,82,6.44152,7.7762885,8.15276,108,108,0,0
+Agricultural-to-urban water transfer,50%,83,6.35596,7.605164,7.878963,108,108,0,0
+Agricultural-to-urban water transfer,50%,84,6.236169,7.434038,7.605166,108,108,0,0
+Agricultural-to-urban water transfer,50%,85,6.15061075,7.297139,7.399815,108,108,0,0
+Agricultural-to-urban water transfer,50%,86,6.030826,7.057565,7.126015,108,108,0,0
+Agricultural-to-urban water transfer,50%,87,5.962376,6.852219,6.989118,108,108,0,0
+Agricultural-to-urban water transfer,50%,88,5.87681225,6.64687,6.920669,108,108,0,0
+Agricultural-to-urban water transfer,50%,89,5.8083645,6.44152,6.852219,108,108,0,0
+Agricultural-to-urban water transfer,50%,90,5.73992175,6.236169,6.783768,108,108,0,0
+Agricultural-to-urban water transfer,50%,91,5.67146625,6.099274,6.715318,108,108,0,0
+Agricultural-to-urban water transfer,50%,92,5.60301525,5.962376,6.57842,108,108,0,0
+Agricultural-to-urban water transfer,50%,93,5.5345645,5.757036,6.373072,108,108,0,0
+Agricultural-to-urban water transfer,50%,94,5.39766675,5.620128,6.167723,108,108,0,0
+Agricultural-to-urban water transfer,50%,95,5.26077025,5.483227,5.962376,108,108,0,0
+Agricultural-to-urban water transfer,50%,96,5.140982,5.34633,5.757036,108,108,0,0
+Agricultural-to-urban water transfer,50%,97,5.05542,5.140982,5.620128,108,102,0,6
+Agricultural-to-urban water transfer,50%,98,4.798736,5.004081,5.140982,108,102,0,6
+Agricultural-to-urban water transfer,100%,79,7.194464,8.700359,9.059716,108,84,24,0
+Agricultural-to-urban water transfer,100%,80,7.057565,8.5976805,8.9228145,108,96,12,0
+Agricultural-to-urban water transfer,100%,81,6.920669,8.460782,8.837254,108,102,6,0
+Agricultural-to-urban water transfer,100%,82,6.852219,8.358108,8.631904,108,106,2,0
+Agricultural-to-urban water transfer,100%,83,6.715318,8.221209,8.563457,108,108,0,0
+Agricultural-to-urban water transfer,100%,84,6.64687,8.084309,8.37522,108,108,0,0
+Agricultural-to-urban water transfer,100%,85,6.57842,7.878963,8.289658,108,108,0,0
+Agricultural-to-urban water transfer,100%,86,6.44152,7.742064,8.084309,108,108,0,0
+Agricultural-to-urban water transfer,100%,87,6.373072,7.536713,7.947411,108,108,0,0
+Agricultural-to-urban water transfer,100%,88,6.304624,7.365589,7.742064,108,108,0,0
+Agricultural-to-urban water transfer,100%,89,6.167723,7.262915,7.605166,108,108,0,0
+Agricultural-to-urban water transfer,100%,90,6.099274,7.1602395,7.536713,108,108,0,0
+Agricultural-to-urban water transfer,100%,91,6.030826,7.09179,7.399815,108,108,0,0
+Agricultural-to-urban water transfer,100%,92,5.893925,6.989117,7.262915,108,108,0,0
+Agricultural-to-urban water transfer,100%,93,5.825474,6.886444,7.194464,108,108,0,0
+Agricultural-to-urban water transfer,100%,94,5.688579,6.783768,7.126015,108,108,0,0
+Agricultural-to-urban water transfer,100%,95,5.620128,6.57842,6.920669,108,108,0,0
+Agricultural-to-urban water transfer,100%,96,5.551677,6.44152,6.64687,108,108,0,0
+Agricultural-to-urban water transfer,100%,97,5.483227,6.099274,6.373072,108,108,0,0
+Agricultural-to-urban water transfer,100%,98,5.414779,5.757036,6.304624,108,108,0,0
+Supply augmentation,0%,79,6.715318,7.605166,8.289658,108,106,2,0
+Supply augmentation,0%,80,6.64687,7.4340395,8.221211,108,108,0,0
+Supply augmentation,0%,81,6.509972,7.2629135,8.084309,108,108,0,0
+Supply augmentation,0%,82,6.373072,7.091791,8.015859,108,108,0,0
+Supply augmentation,0%,83,6.304624,6.9206685,7.878963,108,108,0,0
+Supply augmentation,0%,84,6.167723,6.715318,7.536713,108,108,0,0
+Supply augmentation,0%,85,6.099274,6.544196,7.331363,108,108,0,0
+Supply augmentation,0%,86,5.962376,6.3388445,7.057565,108,108,0,0
+Supply augmentation,0%,87,5.825474,6.2361735,6.989118,108,108,0,0
+Supply augmentation,0%,88,5.73992175,6.1334975,6.920669,108,108,0,0
+Supply augmentation,0%,89,5.620128,6.030825,6.852219,108,108,0,0
+Supply augmentation,0%,90,5.483227,5.92815,6.783768,108,108,0,0
+Supply augmentation,0%,91,5.34633,5.8254805,6.715318,108,108,0,0
+Supply augmentation,0%,92,5.209429,5.7570265,6.57842,108,108,0,0
+Supply augmentation,0%,93,5.072533,5.6543535,6.373072,108,108,0,0
+Supply augmentation,0%,94,5.004081,5.551677,6.167723,108,104,0,4
+Supply augmentation,0%,95,4.867183,5.414779,5.962376,108,102,0,6
+Supply augmentation,0%,96,4.7645105,5.277884,5.757036,108,96,0,12
+Supply augmentation,0%,97,4.55916,5.072533,5.620128,108,90,0,18
+Supply augmentation,0%,98,4.37092575,4.935633,5.140982,108,90,0,18
+Supply augmentation,10%,79,6.920669,8.1527585,8.700359,108,100,8,0
+Supply augmentation,10%,80,6.783768,7.913187,8.563457,108,106,2,0
+Supply augmentation,10%,81,6.64687,7.605166,8.426556,108,108,0,0
+Supply augmentation,10%,82,6.57842,7.331363,8.221211,108,108,0,0
+Supply augmentation,10%,83,6.44152,7.16024,7.947411,108,108,0,0
+Supply augmentation,10%,84,6.373072,6.9548915,7.605166,108,108,0,0
+Supply augmentation,10%,85,6.304624,6.8864415,7.536713,108,108,0,0
+Supply augmentation,10%,86,6.167723,6.7153195,7.399815,108,108,0,0
+Supply augmentation,10%,87,6.030826,6.612645,7.262915,108,108,0,0
+Supply augmentation,10%,88,5.893925,6.441522,7.194464,108,108,0,0
+Supply augmentation,10%,89,5.757036,6.2703965,7.057565,108,108,0,0
+Supply augmentation,10%,90,5.551677,6.167723,6.989118,108,108,0,0
+Supply augmentation,10%,91,5.414779,6.030826,6.783768,108,108,0,0
+Supply augmentation,10%,92,5.3292185,5.893925,6.64687,108,108,0,0
+Supply augmentation,10%,93,5.19231725,5.757036,6.509972,108,108,0,0
+Supply augmentation,10%,94,5.072533,5.620128,6.304624,108,108,0,0
+Supply augmentation,10%,95,4.935633,5.517452,6.099274,108,108,0,0
+Supply augmentation,10%,96,4.867183,5.3805545,5.893925,108,108,0,0
+Supply augmentation,10%,97,4.730285,5.1752055,5.757036,108,102,0,6
+Supply augmentation,10%,98,4.661834,5.004081,5.431891,108,102,0,6
+Supply augmentation,20%,79,7.126015,8.426556,8.974152,108,88,20,0
+Supply augmentation,20%,80,7.04045325,8.015859,8.854366,108,98,10,0
+Supply augmentation,20%,81,6.920669,7.673613,8.631904,108,102,6,0
+Supply augmentation,20%,82,6.783768,7.468264,8.289658,108,106,2,0
+Supply augmentation,20%,83,6.698206,7.3998135,7.947411,108,108,0,0
+Supply augmentation,20%,84,6.57842,7.2629135,7.810513,108,108,0,0
+Supply augmentation,20%,85,6.509972,7.1602395,7.673613,108,108,0,0
+Supply augmentation,20%,86,6.373072,6.989118,7.605166,108,108,0,0
+Supply augmentation,20%,87,6.167723,6.783768,7.468264,108,108,0,0
+Supply augmentation,20%,88,5.962376,6.57842,7.331363,108,108,0,0
+Supply augmentation,20%,89,5.8083645,6.44152,7.194464,108,108,0,0
+Supply augmentation,20%,90,5.73992175,6.236169,7.057565,108,108,0,0
+Supply augmentation,20%,91,5.67146625,6.099274,6.920669,108,108,0,0
+Supply augmentation,20%,92,5.60301525,5.962376,6.715318,108,108,0,0
+Supply augmentation,20%,93,5.5345645,5.825474,6.57842,108,108,0,0
+Supply augmentation,20%,94,5.39766675,5.7228075,6.373072,108,108,0,0
+Supply augmentation,20%,95,5.26077025,5.620128,6.167723,108,108,0,0
+Supply augmentation,20%,96,5.140982,5.483227,5.962376,108,108,0,0
+Supply augmentation,20%,97,5.05542,5.277884,5.825474,108,108,0,0
+Supply augmentation,20%,98,4.730285,5.072533,5.551677,108,108,0,0

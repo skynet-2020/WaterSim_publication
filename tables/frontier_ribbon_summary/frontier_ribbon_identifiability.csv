@@ -1,0 +1,321 @@
+factor_group,factor_level,gsi_threshold,n_background_combinations,n_observed_frontiers,n_above_range,n_below_range,median_status,q25_status,q75_status,fully_identifiable
+Climate conditions,Reference river flows,79,162,140,22,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,80,162,152,10,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,81,162,158,4,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,82,162,160,2,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,83,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,84,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,85,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,86,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,87,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,88,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,89,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,90,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,91,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,92,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,93,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,94,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,95,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,96,162,156,0,6,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,97,162,156,0,6,exact,exact,exact,TRUE
+Climate conditions,Reference river flows,98,162,156,0,6,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,79,162,154,8,0,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,80,162,160,2,0,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,81,162,160,2,0,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,82,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,83,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,84,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,85,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,86,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,87,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,88,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,89,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,90,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,91,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,92,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,93,162,162,0,0,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,94,162,158,0,4,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,95,162,156,0,6,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,96,162,156,0,6,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,97,162,144,0,18,exact,exact,exact,TRUE
+Climate conditions,Reduced river flows,98,162,144,0,18,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,79,162,147,15,0,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,80,162,156,6,0,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,81,162,159,3,0,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,82,162,161,1,0,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,83,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,84,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,85,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,86,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,87,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,88,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,89,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,90,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,91,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,92,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,93,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,94,162,161,0,1,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,95,162,159,0,3,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,96,162,156,0,6,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,97,162,150,0,12,exact,exact,exact,TRUE
+Environmental-flow allocation,0 AF,98,162,150,0,12,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",79,162,147,15,0,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",80,162,156,6,0,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",81,162,159,3,0,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",82,162,161,1,0,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",83,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",84,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",85,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",86,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",87,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",88,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",89,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",90,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",91,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",92,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",93,162,162,0,0,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",94,162,159,0,3,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",95,162,159,0,3,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",96,162,156,0,6,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",97,162,150,0,12,exact,exact,exact,TRUE
+Environmental-flow allocation,"80,000 AF",98,162,150,0,12,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,79,108,84,24,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,80,108,98,10,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,81,108,102,6,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,82,108,106,2,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,83,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,84,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,85,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,86,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,87,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,88,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,89,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,90,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,91,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,92,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,93,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,94,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,95,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,96,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,97,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,3.2% reduction,98,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,79,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,80,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,81,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,82,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,83,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,84,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,85,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,86,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,87,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,88,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,89,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,90,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,91,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,92,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,93,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,94,108,104,0,4,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,95,108,102,0,6,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,96,108,96,0,12,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,97,108,84,0,24,exact,exact,exact,TRUE
+Municipal water-use efficiency,25% reduction,98,108,84,0,24,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,79,108,102,6,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,80,108,106,2,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,81,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,82,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,83,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,84,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,85,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,86,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,87,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,88,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,89,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,90,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,91,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,92,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,93,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,94,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,95,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,96,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,97,108,108,0,0,exact,exact,exact,TRUE
+Municipal water-use efficiency,45% reduction,98,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),79,108,90,18,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),80,108,100,8,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),81,108,104,4,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),82,108,106,2,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),83,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),84,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),85,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),86,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),87,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),88,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),89,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),90,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),91,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),92,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),93,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),94,108,107,0,1,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),95,108,106,0,2,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),96,108,104,0,4,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),97,108,100,0,8,exact,exact,exact,TRUE
+Agricultural water-use efficiency,Current (2015),98,108,100,0,8,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,79,108,100,8,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,80,108,106,2,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,81,108,106,2,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,82,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,83,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,84,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,85,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,86,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,87,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,88,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,89,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,90,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,91,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,92,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,93,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,94,108,107,0,1,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,95,108,106,0,2,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,96,108,104,0,4,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,97,108,100,0,8,exact,exact,exact,TRUE
+Agricultural water-use efficiency,10% below 2015,98,108,100,0,8,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,79,108,104,4,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,80,108,106,2,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,81,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,82,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,83,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,84,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,85,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,86,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,87,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,88,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,89,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,90,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,91,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,92,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,93,108,108,0,0,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,94,108,106,0,2,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,95,108,106,0,2,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,96,108,104,0,4,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,97,108,100,0,8,exact,exact,exact,TRUE
+Agricultural water-use efficiency,20% below 2015,98,108,100,0,8,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,79,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,80,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,81,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,82,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,83,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,84,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,85,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,86,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,87,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,88,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,89,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,90,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,91,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,92,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,93,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,94,108,104,0,4,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,95,108,102,0,6,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,96,108,96,0,12,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,97,108,90,0,18,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,0%,98,108,90,0,18,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,79,108,102,6,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,80,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,81,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,82,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,83,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,84,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,85,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,86,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,87,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,88,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,89,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,90,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,91,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,92,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,93,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,94,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,95,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,96,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,97,108,102,0,6,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,50%,98,108,102,0,6,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,79,108,84,24,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,80,108,96,12,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,81,108,102,6,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,82,108,106,2,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,83,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,84,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,85,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,86,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,87,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,88,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,89,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,90,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,91,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,92,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,93,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,94,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,95,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,96,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,97,108,108,0,0,exact,exact,exact,TRUE
+Agricultural-to-urban water transfer,100%,98,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,0%,79,108,106,2,0,exact,exact,exact,TRUE
+Supply augmentation,0%,80,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,0%,81,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,0%,82,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,0%,83,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,0%,84,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,0%,85,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,0%,86,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,0%,87,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,0%,88,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,0%,89,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,0%,90,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,0%,91,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,0%,92,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,0%,93,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,0%,94,108,104,0,4,exact,exact,exact,TRUE
+Supply augmentation,0%,95,108,102,0,6,exact,exact,exact,TRUE
+Supply augmentation,0%,96,108,96,0,12,exact,exact,exact,TRUE
+Supply augmentation,0%,97,108,90,0,18,exact,exact,exact,TRUE
+Supply augmentation,0%,98,108,90,0,18,exact,exact,exact,TRUE
+Supply augmentation,10%,79,108,100,8,0,exact,exact,exact,TRUE
+Supply augmentation,10%,80,108,106,2,0,exact,exact,exact,TRUE
+Supply augmentation,10%,81,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,82,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,83,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,84,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,85,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,86,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,87,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,88,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,89,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,90,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,91,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,92,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,93,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,94,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,95,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,96,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,10%,97,108,102,0,6,exact,exact,exact,TRUE
+Supply augmentation,10%,98,108,102,0,6,exact,exact,exact,TRUE
+Supply augmentation,20%,79,108,88,20,0,exact,exact,exact,TRUE
+Supply augmentation,20%,80,108,98,10,0,exact,exact,exact,TRUE
+Supply augmentation,20%,81,108,102,6,0,exact,exact,exact,TRUE
+Supply augmentation,20%,82,108,106,2,0,exact,exact,exact,TRUE
+Supply augmentation,20%,83,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,20%,84,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,20%,85,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,20%,86,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,20%,87,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,20%,88,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,20%,89,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,20%,90,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,20%,91,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,20%,92,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,20%,93,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,20%,94,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,20%,95,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,20%,96,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,20%,97,108,108,0,0,exact,exact,exact,TRUE
+Supply augmentation,20%,98,108,108,0,0,exact,exact,exact,TRUE

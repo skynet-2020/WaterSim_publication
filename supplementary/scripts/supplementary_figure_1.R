@@ -56,7 +56,7 @@ p <- ggplot(
   )
 
 ggsave(
-  "figures/supplementary_figure_1.png",
+  "supplementary/figures/supplementary_figure_1.png",
   plot = p,
   width = 10,
   height = 6.5,

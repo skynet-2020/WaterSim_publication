@@ -1,41 +1,29 @@
-# WaterSim publication data and figure-reproduction package
+# WaterSim publication data and analysis package
 
 This repository contains the curated data, configuration, documentation, and R
-scripts needed to reproduce the figures associated with a scenario analysis of
-water sustainability and population growth in the Phoenix metropolitan area.
-
-The package reproduces the published analyses from archived simulation outputs.
+code supporting the current WaterSim manuscript on groundwater-constrained
+population growth in metropolitan Phoenix.
 
 Repository creation and analysis: **Joshua Gilman**
 
-## Repository contents
+## Repository organization
 
 ```text
-WaterSim_publication/
-├── configuration/   Factorial design and scenario-count verification
-├── data/            Compressed tabular data and spatial inputs
-├── documentation/   Data dictionary, figure inventory, and version records
-├── figures/         Main-text and supplementary figures
-└── scripts/         Clean R reproduction scripts
+configuration/       Factorial design and scenario-count verification
+current_manuscript/  Current manuscript and supplementary-material reference files
+data/                Compressed model outputs and spatial inputs
+documentation/       Data dictionary, figure inventory, and audit records
+figures/             Final main-text figures only
+scripts/             Main-text analysis and figure scripts
+supplementary/       Final supplementary figures and their available scripts
+internal_validation/ Internal frontier-identifiability and matched analyses
+additional_analysis/ Retained analyses not currently in the manuscript
+archive/             Clearly labeled superseded publication material
 ```
 
-Important files:
-
-- `data/merged_ob_data.csv.gz`: regional outputs for 24,300 factorial scenarios
-  and simulation years 2000–2060.
-- `data/population_growth_data.csv.gz`: provider-level population outputs used
-  to translate population-growth inputs into regional population.
-- `configuration/tertiary_run.txt`: archived factorial configuration.
-- `configuration/scenario_design_explained.txt`: plain-language explanation of
-  the experimental design and scenario names.
-- `documentation/variable_descriptions.txt`: data dictionary, exact WaterSim
-  metadata descriptions, study interpretations, and population-lookup method.
-- `documentation/figure_source_inventory.txt`: mapping between manuscript
-  figures, data, and scripts.
-- `documentation/software_versions.txt`: R, package, and spatial-library
-  versions used for verified reproduction.
-- `documentation/spatial_data_sources.txt`: sources, processing, limitations,
-  and reuse notices for the geographic boundary files.
+The manuscript and supplementary-material files are included as reference
+copies. The numbered PNGs in `figures/` correspond to manuscript version 4 in
+`current_manuscript/`.
 
 ## Experimental design
 
@@ -52,170 +40,113 @@ The experiment contains 24,300 scenarios:
  = 24,300 scenarios
 ```
 
-The combinations are elements of a factorial experiment. They do not have
-assigned probabilities and should not be interpreted as equally likely futures.
-See `configuration/scenario_design_explained.txt` for the input levels and the
-scenario-name convention.
+These are factorial experimental combinations, not probability-weighted
+futures. See `configuration/scenario_design_explained.txt` and
+`configuration/tertiary_run.txt` for exact levels and scenario conventions.
 
-## Population-growth lookup
+## Core data
 
-`WEBPOPGR` is a percentage of forecasted population growth. It is not a count of
-people and is not an annual percentage growth rate.
+- `data/merged_ob_data.csv.gz` contains regional outputs for the 24,300
+  scenarios and simulation years 2000–2060.
+- `data/population_growth_data.csv.gz` contains provider-level population
+  outputs used to translate the WaterSim `WEBPOPGR` input into regional
+  population.
+- `documentation/variable_descriptions.txt` documents variables, units, and
+  interpretation.
 
-The regional population lookup is generated from
-`data/population_growth_data.csv.gz` by:
+`WEBPOPGR` is a percentage of forecasted population growth, not a population
+count or annual growth rate. The lookup selects `POPUSED` in 2060, sums across
+33 providers, and maps each of the 75 experimental `WEBPOPGR` levels (2–150 in
+increments of 2) to regional population. The additional level 0 is retained as
+a baseline in the population dataset.
 
-1. selecting `POPUSED` in 2060;
-2. summing population across all 33 providers for each population-growth input;
-3. decoding and ordering the corresponding `WEBPOPGR` value.
+## Current manuscript figures
 
-The lookup contains 76 levels from 0 through 150. The main factorial experiment
-uses the 75 levels from 2 through 150 in increments of 2; level 0 is retained as
-a baseline. The shared implementation is in `scripts/common_data.R` and is used
-by Figures 4, 5, and 7 and Supplementary Figure 1.
+| Output | Subject | Primary code |
+|---|---|---|
+| Figure 1 | Phoenix Metropolitan Area and water providers | `scripts/figure_1.R` |
+| Figure 2 | Simulation workflow | Artwork retained from the manuscript |
+| Figure 3 | Distribution of 2060 GSI | `scripts/figure_3.R` |
+| Figure 4 | Overall population–GSI frontier | `scripts/figure_4.R` |
+| Figure 5 | Median population frontiers and IQR ribbons | `scripts/figure_5.R` |
+| Figure 6 | Conditional-feasibility heatmaps | `scripts/figure_6.R` |
+| Figure 7 | Reservoir storage trajectories | `scripts/figure_7.R` |
 
-## Software requirements
+The final numbered PNGs are in `figures/`. Figure 2 is retained as manuscript
+artwork because no data-generating script is required for it. See
+`documentation/figure_source_inventory.txt` for exact inputs and methods.
 
-Verified reproduction used R 4.2.1. The directly required R packages are:
+## Supplementary material
 
-```text
-cowplot
-data.table
-ggplot2
-ggspatial
-ggtext
-gridExtra
-patchwork
-ragg
-scales
-sf
-shadowtext
-```
+Final supplementary figures are in `supplementary/figures/`.
 
-Install missing packages in R with:
+- Figure S1 maps the population-growth input to 2060 regional population.
+- Figure S2 shows conditional Salt–Verde storage feasibility.
+- Figure S3 is the experimental-design illustration embedded in the current
+  supplementary document; it is retained as artwork and has no R generator.
 
-```r
-install.packages(c(
-  "cowplot", "data.table", "ggplot2", "ggspatial", "ggtext",
-  "gridExtra", "patchwork", "ragg", "scales", "sf", "shadowtext"
-))
-```
+Available scripts are in `supplementary/scripts/`.
 
-The `sf` package may require system installations of GDAL, GEOS, and PROJ.
-Exact versions from the verified environment are recorded in
-`documentation/software_versions.txt`. RStudio and Positron are optional; all
-scripts run from a terminal with `Rscript`.
+## Internal verification analyses
 
-## Reproducing the figures
+`internal_validation/frontier_bounds/` documents boundary censoring and the
+selection of the 79–98 GSI interval used in Figure 5.
 
-Run commands from the repository root.
+`internal_validation/matched_frontier/` contains the matched-background
+analysis retained for internal verification and potential reviewer requests.
+It includes the matched-set identifiability analysis, matched frontier
+contrasts over the fully matchable interval, the final contrast figure and
+supporting tables, and a concise methods document. These files are not part of
+the current manuscript unless explicitly added in a later revision.
 
-Verify the factorial scenario count:
+The unconditioned feasibility heatmap requested for context is retained under
+`additional_analysis/overall_feasibility/`.
+
+## Legacy material
+
+The former exact-GSI violin version of Figure 5 is preserved under
+`archive/legacy_figure_5/`. It is retained for provenance but is not the current
+manuscript Figure 5. Pre-v4 figure rasters are likewise separated from the
+current numbered figures.
+
+The detailed methods record for Figure 4, the former Figure 5, current Figure
+5, and current Figure 6 is
+`documentation/figure_4_5_6_methods_and_legacy_figure_5.txt`.
+
+## Running the analyses
+
+Run commands from the repository root. Verify the factorial count and package
+structure with:
 
 ```bash
 Rscript configuration/verify_scenario_count.R
-```
-
-Validate all required files, datasets, lookup values, spatial inputs, file
-sizes, and public-package content:
-
-```bash
 Rscript scripts/validate_package.R
 ```
 
-Reproduce all data-generated figures:
+Regenerate the data-derived main figures with:
 
 ```bash
 Rscript scripts/reproduce_all.R
 ```
 
-This generates Figures 1 and 3–7 plus Supplementary Figure 1 in `figures/`.
-
-Individual scripts can also be run separately:
-
-| Output | Script |
-|---|---|
-| Figure 1 | `scripts/figure_1.R` |
-| Figure 3 | `scripts/figure_3.R` |
-| Figure 4 | `scripts/figure_4.R` |
-| Figure 5 | `scripts/figure_5.R` |
-| Figure 6 | `scripts/figure_6.R` |
-| Figure 7 | `scripts/figure_7.R` |
-| Supplementary Figure 1 | `scripts/supplementary_figure_1.R` |
-
-The detailed reproduction comparison is available in
-`documentation/reproduction_comparison.txt`. Results of the isolated complete
-package test are recorded in `documentation/package_test_report.txt`.
-
-## Refreshing the software-version record
-
-To record the current R environment:
+Figure 5 requires the boundary diagnostic table. The reproduction driver runs
+that diagnostic before Figure 5. Supplementary and internal analyses are run
+separately so they cannot be mistaken for current main-text outputs.
 
 ```bash
-Rscript scripts/capture_software_versions.R
+Rscript supplementary/reproduce_supplementary.R
+Rscript internal_validation/matched_frontier/run_matched_analysis.R
 ```
 
-This updates `documentation/software_versions.txt`.
+## Software and licensing
 
-To verify that the installed package versions match the tested environment:
+The verified environment and directly required R packages are recorded in
+`documentation/software_versions.txt`. RStudio and Positron are optional; the
+scripts run with `Rscript`. Use `scripts/check_repository_size.R` before a
+release.
 
-```bash
-Rscript scripts/check_software_versions.R
-```
-
-The version check reports every mismatch explicitly. A mismatch does not imply
-that reproduction will fail, but it identifies differences from the environment
-used for the verified outputs.
-
-## Repository file-size check
-
-The final PNG figures are intentionally version-controlled. All current files
-are below GitHub's 100 MiB per-file limit and do not require Git Large File
-Storage. Before committing or publishing, run:
-
-```bash
-Rscript scripts/check_repository_size.R
-```
-
-The check fails for files at or above the repository's 95 MiB safety threshold
-and warns about files at or above 50 MiB. Git cannot ignore files automatically
-based on size, so this check should be run before each release.
-
-## Data-file structure
-
-Both tabular datasets use long format.
-
-`merged_ob_data.csv.gz` columns:
-
-```text
-field, value, year, scenario, var_type
-```
-
-`population_growth_data.csv.gz` columns:
-
-```text
-provider, field, value, year, scenario, var_type
-```
-
-Variable definitions, units, caveats, and verbatim WaterSim descriptions are
-provided in `documentation/variable_descriptions.txt`.
-
-## Notes and known limitations
-
-- Figure 5 can emit non-fatal warnings when a violin group contains fewer than
-  two observations. The script completes and retains those observations through
-  the accompanying boxplot geometry.
-- Exact raster appearance can vary slightly across operating systems because of
-  fonts and graphics libraries. The verified substantive comparison is recorded
-  in `documentation/reproduction_comparison.txt`.
-
-## Licensing
-
-- R code in `scripts/` and `configuration/` is licensed under the MIT License;
-  see `LICENSE`.
+- R code is licensed under the MIT License (`LICENSE`).
 - Original datasets, figures, configuration files, and documentation are
-  licensed under CC BY 4.0; see `LICENSE-DATA.md`.
-- Third-party geographic data under `data/spatial/` are excluded from that
-  license and remain subject to their source-agency terms. Sources,
-  transformations, and limitations are documented in
+  licensed under CC BY 4.0 (`LICENSE-DATA.md`).
+- Third-party geographic data retain their original terms; see
   `documentation/spatial_data_sources.txt`.

@@ -1,0 +1,17 @@
+factor_group,factor_level,median_non_increasing,q25_non_increasing,q75_non_increasing,maximum_median_increase
+Climate conditions,Reference river flows,TRUE,TRUE,TRUE,0
+Climate conditions,Reduced river flows,TRUE,TRUE,TRUE,0
+Environmental-flow allocation,0 AF,TRUE,TRUE,TRUE,0
+Environmental-flow allocation,"80,000 AF",TRUE,TRUE,TRUE,0
+Municipal water-use efficiency,3.2% reduction,TRUE,TRUE,TRUE,0
+Municipal water-use efficiency,25% reduction,TRUE,TRUE,TRUE,0
+Municipal water-use efficiency,45% reduction,TRUE,TRUE,TRUE,0
+Agricultural water-use efficiency,Current (2015),TRUE,TRUE,TRUE,0
+Agricultural water-use efficiency,10% below 2015,TRUE,TRUE,TRUE,0
+Agricultural water-use efficiency,20% below 2015,TRUE,TRUE,TRUE,0
+Agricultural-to-urban water transfer,0%,TRUE,TRUE,TRUE,0
+Agricultural-to-urban water transfer,50%,TRUE,TRUE,TRUE,0
+Agricultural-to-urban water transfer,100%,TRUE,TRUE,TRUE,0
+Supply augmentation,0%,TRUE,TRUE,TRUE,0
+Supply augmentation,10%,TRUE,TRUE,TRUE,0
+Supply augmentation,20%,TRUE,TRUE,TRUE,0

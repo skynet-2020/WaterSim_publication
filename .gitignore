@@ -49,6 +49,10 @@ renv/staging/
 *.feather
 *.fst
 
+# Curated analysis-summary tables are version-controlled.
+!tables/**/*.csv
+!internal_validation/**/*.csv
+
 # Model-query and service-access artifacts must never enter the public package
 **/output_json_dict.json
 **/*query*.json

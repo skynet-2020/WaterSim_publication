@@ -1,0 +1,322 @@
+HOW FIGURE 4, LEGACY FIGURE 5, CURRENT FIGURE 5, AND FIGURE 6 WERE GENERATED
+
+
+1. SHARED EXPERIMENTAL DESIGN AND DATA
+
+All three figures use results from a full-factorial WaterSim5 experiment
+containing 24,300 scenarios:
+
+75 population-growth levels
+ x 2 paired climate-related river-flow conditions
+ x 2 environmental-flow levels
+ x 3 municipal water-use-efficiency levels
+ x 3 agricultural water-use-efficiency levels
+ x 3 agricultural-to-urban water-transfer levels
+ x 3 supply-augmentation levels
+ = 24,300 scenarios.
+
+The primary data file is data/merged_ob_data.csv.gz. For these analyses, the
+scripts select the WaterSim output SINYRGWR in 2060. SINYRGWR is the
+groundwater sustainability indicator (GSI), expressed as the number of years
+groundwater pumping can be sustained. This produces one 2060 GSI value for each
+of the 24,300 scenarios.
+
+Scenario identifiers are decoded into the population-growth input (WEBPOPGR),
+the paired Colorado River and Salt-Verde River flow adjustments, municipal
+water-use efficiency, agricultural water-use efficiency,
+agricultural-to-urban water transfer, supply augmentation, and
+environmental-flow allocation.
+
+WEBPOPGR is a population-growth scaling input rather than a population count.
+The figures therefore use data/population_growth_data.csv.gz to translate each
+WEBPOPGR level into regional population. The lookup selects provider-level
+POPUSED in 2060 and sums it across the 33 modeled water providers. The main
+experiment contains 75 WEBPOPGR levels from 2 through 150 in increments of two,
+corresponding to approximately 4.1-9.2 million regional residents in 2060.
+
+Excluding population, the factorial experiment contains 324 unique
+climate-policy combinations. Each combination is represented at all 75 tested
+population levels.
+
+
+2. FIGURE 4: OVERALL POPULATION DISTRIBUTION AT EACH REALIZED GSI
+
+Script: scripts/figure_4.R
+Output: figures/figure_4.png
+
+Figure 4 uses all 24,300 scenario-level GSI results in 2060 without fixing or
+filtering any climate or policy factor. The code groups scenarios by their
+exact realized GSI value. Thus, the group at GSI = 90 contains scenarios whose
+2060 GSI equals exactly 90; it is not a minimum-threshold group and does not
+include scenarios with GSI greater than 90.
+
+Within each exact GSI group, the script summarizes WEBPOPGR using five
+statistics:
+
+- Minimum
+- 25th percentile
+- Median
+- 75th percentile
+- Maximum
+
+The quantiles are R's standard type-7 sample quantiles. The number and
+composition of scenarios can differ among GSI values because GSI is a modeled
+outcome rather than an experimental input.
+
+After calculating these statistics in WEBPOPGR units, the script converts each
+summary value into 2060 regional population using the population lookup and
+linear interpolation implemented by population_from_webpopgr(). It then orders
+the summaries by realized GSI.
+
+The figure plots:
+
+- The x-axis as realized GSI in 2060, shown in years of groundwater supply.
+- The y-axis as projected regional population in 2060, in millions.
+- A light-blue ribbon from the minimum to maximum population at each GSI.
+- A darker-blue ribbon from the 25th to 75th percentile.
+- A red line showing the median population.
+
+The plotted GSI range is approximately 45-100 years, with labeled ticks every
+five years. The y-axis is displayed from 4 to 10 million people. Lines and
+ribbons connect the summaries calculated for the observed GSI values; they are
+not regression fits, smoothed response curves, confidence intervals, or
+probability intervals.
+
+Figure 4 asks:
+
+    Across the complete factorial scenario ensemble, what population
+    distribution is associated with each exact realized GSI value?
+
+The full-range ribbon shows the lowest and highest tested populations found
+among scenarios producing each GSI. The interquartile ribbon shows the middle
+50% of their population distribution, and the red line shows the median. The
+vertical width of a ribbon represents variation in population, not the number
+of scenarios at that GSI. Because the figure conditions on the realized GSI
+outcome, changes in its median and ribbon width can reflect changes in which
+climate-policy combinations populate each GSI group.
+
+
+3. LEGACY FIGURE 5: EXACT-GSI VIOLIN AND BOXPLOTS
+
+Script: archive/legacy_figure_5/old_figure_5_violin.R
+Output: archive/legacy_figure_5/old_figure_5_violin.png
+
+The old Figure 5 contained four vertically arranged panels corresponding to
+realized 2060 GSI values of exactly 70, 80, 90, and 100. For each panel, the
+code retained scenarios using the literal filter:
+
+    GSI value == panel value
+
+There was no rounding, binning, tolerance, or greater-than-or-equal threshold.
+For example, the GSI 90 panel contained only scenarios whose 2060 GSI was
+exactly 90; it did not include scenarios with GSI greater than 90.
+
+The y variable plotted by the code was WEBPOPGR, with axis labels translated
+into the corresponding 2060 regional population. Each violin therefore showed
+the distribution of population levels among scenarios that attained the exact
+GSI value and satisfied the relevant policy filters.
+
+Climate was shown using two adjacent colored violins at each policy level:
+
+- Reference flows: Colorado River = 100% and Salt-Verde River = 105%.
+- Reduced flows: Colorado River = 70% and Salt-Verde River = 85%.
+
+The factor comparisons used progressively narrower background conditions:
+
+- Environmental-flow allocation: compared 0 AF and approximately 80,000 AF;
+  MWUE, AWUE, transfer, and augmentation varied.
+- Municipal water-use efficiency: environmental flow was fixed at 0 AF;
+  AWUE, transfer, and augmentation varied.
+- Agricultural water-use efficiency: environmental flow was fixed at 0 AF
+  and MWUE at the 45% reduction level; transfer and augmentation varied.
+- Agricultural-to-urban water transfer: environmental flow was fixed at 0 AF,
+  MWUE at the 45% reduction level, and AWUE at the current 2015 level;
+  augmentation varied.
+- Supply augmentation: environmental flow was fixed at 0 AF, MWUE at the 45%
+  reduction level, AWUE at the current 2015 level, and transfer at 100%.
+
+The violin width represented an estimated density of population values. The
+violins used scale = "width," so their maximum widths were standardized and did
+not represent the absolute number of qualifying scenarios. The embedded
+boxplots showed the median and interquartile range, with standard boxplot
+whiskers; outlier points were not drawn.
+
+The old figure asked:
+
+    Among scenarios that ended with a particular exact GSI value, what
+    population levels occurred under selected policy and climate conditions?
+
+It did not show the maximum population meeting a minimum GSI threshold or an
+independent policy effect. Because the data were filtered on the realized GSI
+outcome, factor levels could be represented by different numbers and
+compositions of qualifying scenarios. The nested policy filters also meant
+that the five factor comparisons did not share one common background design.
+These features made comparisons difficult to interpret as direct effects.
+
+
+4. CURRENT FIGURE 5: MEDIAN POPULATION FRONTIERS AND IQR RIBBONS
+
+Script: scripts/figure_5.R
+Output: figures/figure_5.png
+
+The new Figure 5 organizes the 24,300 scenarios into 324 complete
+climate-policy curves. Each curve contains the 75 tested population levels and
+their corresponding 2060 GSI values. The code verifies that every one of the
+324 combinations contains the complete ordered population experiment.
+
+For each climate-policy combination and each integer GSI threshold from 79
+through 98, the code identifies all tested populations satisfying:
+
+    GSI >= threshold
+
+The population frontier is the highest tested 2060 regional population among
+those qualifying values. The code does not interpolate between population
+levels or fit a response curve.
+
+Each individual frontier is classified as:
+
+- Observed within the tested range: at least one population meets the
+  threshold, but the maximum tested population does not.
+- Above the tested range: even the maximum tested population meets the
+  threshold, so the true frontier exceeds the experiment's upper boundary.
+- Below the tested range: even the minimum tested population fails the
+  threshold, so the true frontier is below the experiment's lower boundary.
+
+No censored frontier is replaced by the minimum or maximum tested population.
+Instead, the code uses the known ordering of censored values to determine
+whether the median, 25th percentile, and 75th percentile are exactly
+identifiable. GSI 79-98 is the longest contiguous interval for which all three
+quantiles are exactly identifiable for all 16 factor levels. At GSI 78, two
+factor-level groups have a partly censored IQR; at GSI 99, two groups again
+have a partly censored IQR; at GSI 100, the median itself is outside the tested
+range for most groups.
+
+The 324 frontier values at each threshold are then summarized separately for
+the levels of six focal factors:
+
+- Climate-related river-flow conditions
+- Environmental-flow allocation
+- Municipal water-use efficiency
+- Agricultural water-use efficiency
+- Agricultural-to-urban water transfer
+- Supply augmentation
+
+For climate and environmental flow, each factor level is summarized over 162
+combinations of the other factors. For each three-level policy, each factor
+level is summarized over 108 combinations of the other factors.
+
+Within each panel:
+
+- The x-axis is the minimum GSI threshold, 79-98 years.
+- The y-axis is the maximum tested 2060 regional population meeting or
+  exceeding that threshold, in millions.
+- Each colored line is the median population frontier across the remaining
+  climate-policy combinations.
+- Each shaded ribbon is the 25th-75th percentile range of those frontiers.
+
+The ribbons represent variation across factorial background combinations. They
+are not confidence intervals, standard errors, or model-probability intervals.
+The lines connect summaries calculated at the integer GSI thresholds and are
+not fitted or smoothed statistical curves.
+
+The new figure asks:
+
+    Given a particular factor level, what is the typical maximum tested
+    population that meets a minimum GSI requirement, and how much does that
+    frontier vary across the other climate and policy combinations?
+
+This corresponds more directly to the groundwater-constrained population
+frontier concept than the exact-GSI conditioning used in the old Figure 5.
+
+
+5. FIGURE 6: CONDITIONAL FEASIBILITY HEATMAPS
+
+Current expanded script: scripts/figure_6.R
+Current output: figures/figure_6.png
+
+Figure 6 uses the same 24,300 scenario-level 2060 GSI results and the same
+regional population lookup. Each panel fixes one level of one non-population
+factor while allowing all other climate and policy factors to vary across
+their full factorial combinations.
+
+The figure contains panels for:
+
+- Reference and reduced climate-related river-flow conditions
+- 0 AF and approximately 80,000 AF environmental-flow allocation
+- Three municipal water-use-efficiency levels
+- Three agricultural water-use-efficiency levels
+- Three agricultural-to-urban water-transfer levels
+- Three supply-augmentation levels
+
+At every one of the 75 population levels, a panel for a two-level factor
+contains 162 combinations of the remaining factors. A panel for a three-level
+factor contains 108 combinations of the remaining factors.
+
+For every panel, every population level, and every integer GSI threshold from
+60 through 100, the code calculates:
+
+    100 x
+    (number of remaining scenarios with 2060 GSI >= threshold)
+    / (total remaining scenarios at that population and fixed factor level)
+
+The denominator is always 162 in the climate and environmental-flow panels and
+108 in the four three-level policy panels. The code verifies these denominators
+before plotting.
+
+Each panel contains 75 population rows x 41 GSI-threshold columns = 3,075
+heatmap cells. Across the 16 factor-level panels, Figure 6 contains 49,200
+cells. These are summaries of the same 24,300 model scenarios, not additional
+model runs. A scenario can contribute to multiple thresholds: a scenario with
+GSI = 92 counts as meeting thresholds 60 through 92 but not thresholds 93
+through 100.
+
+Within each heatmap:
+
+- The x-axis is the minimum GSI threshold, 60-100 years.
+- The y-axis is tested regional population in 2060, approximately 4.1-9.2
+  million people.
+- Cell color is the percentage of the remaining scenario combinations meeting
+  or exceeding the GSI threshold.
+- Lighter colors represent higher percentages; darker colors represent lower
+  percentages.
+
+For example, a cell in the AWT = 50% panel at a population of approximately
+7 million and a GSI threshold of 90 reports the percentage of the 108
+combinations of climate, environmental flow, MWUE, AWUE, and augmentation that
+produced GSI >= 90 with AWT fixed at 50%.
+
+Figure 6 asks:
+
+    Given a specified level of one climate or policy factor, what percentage
+    of the remaining factorial combinations supports a particular population
+    while meeting a particular minimum GSI requirement?
+
+The percentages describe conditional feasibility within the deliberately
+constructed factorial scenario space. They are not probability estimates for
+future outcomes. No GSI values are averaged: each scenario either meets or
+fails the specified threshold.
+
+
+6. RELATIONSHIP AMONG THE FOUR FIGURES
+
+Figure 4 begins with an exact realized GSI and displays the overall population
+distribution across the complete scenario ensemble at that GSI.
+
+The old Figure 5 begins with an exact realized GSI and displays the population
+distribution among scenarios that attained it.
+
+The new Figure 5 begins with a minimum GSI requirement, calculates the maximum
+qualifying population separately for every complete climate-policy
+combination, and summarizes the distribution of those population frontiers.
+
+Figure 6 begins with a population and minimum GSI requirement and reports the
+percentage of the remaining climate-policy combinations that satisfies both.
+
+In concise terms:
+
+- Figure 4: overall population median, IQR, and full range conditional on exact
+  realized GSI.
+- Old Figure 5: population distributions conditional on exact realized GSI.
+- New Figure 5: median and IQR of maximum qualifying population frontiers.
+- Figure 6: conditional percentage of scenario combinations meeting each
+  population-GSI requirement.
