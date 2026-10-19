@@ -1,80 +1,91 @@
-CURRENT FIGURE SOURCE INVENTORY
-===============================
+FIGURE AND ANALYSIS SOURCE INVENTORY
+====================================
 
-Reference documents
--------------------
-Main manuscript: current_manuscript/WaterSim_manuscript_10.9.2026_v4.docx
-Supplement: current_manuscript/WaterSim_supplementary_material_10.1.2026.docx
+This inventory links every retained figure or analysis to its generating code,
+inputs, and supporting outputs. Published figures, validation analyses,
+additional analyses, and archived material are listed separately.
 
-Main-text figures
------------------
-Figure 1: Phoenix Metropolitan Area and constituent water-provider areas.
-  Final: figures/figure_1.png
+
+PUBLISHED MAIN-TEXT FIGURES
+---------------------------
+
+Figure 1: Phoenix Metropolitan Area and constituent water-provider areas
+  Output: figures/figure_1.png
   Code: scripts/figure_1.R; scripts/figure_1_provider_map.R
-  Data: data/spatial/
+  Inputs: data/spatial/
 
-Figure 2: factorial simulation and analysis workflow.
-  Final: figures/figure_2.png
-  Source: retained manuscript artwork; no data-generating R script.
+Figure 3: frequency distribution of 2060 GSI across 24,300 scenarios
+  Output: figures/figure_3.png
+  Code: scripts/figure_3.R; scripts/common_data.R
+  Input: SINYRGWR in 2060 from data/merged_ob_data.csv.gz
 
-Figure 3: frequency distribution of 2060 GSI across 24,300 scenarios.
-  Final: figures/figure_3.png
-  Code: scripts/figure_3.R
-  Data: SINYRGWR in 2060 from data/merged_ob_data.csv.gz
-
-Figure 4: overall population distribution at each exact realized GSI.
-  Final: figures/figure_4.png
+Figure 4: population distribution at each exact realized GSI
+  Output: figures/figure_4.png
   Code: scripts/figure_4.R; scripts/common_data.R
-  Data: 2060 SINYRGWR plus the POPUSED regional-population lookup.
+  Inputs: 2060 SINYRGWR and the POPUSED regional-population lookup
 
-Figure 5: factor-level median population frontiers and IQR ribbons.
-  Final: figures/figure_5.png
+Figure 5: factor-level median population frontiers and IQR ribbons
+  Output: figures/figure_5.png
   Code: scripts/figure_5.R; scripts/common_data.R
   Supporting tables: tables/frontier_ribbon_summary/
-  Boundary diagnostic: internal_validation/frontier_bounds/
+  Validation: internal_validation/frontier_bounds/
   Definition: for each climate-policy combination and GSI threshold 79-98,
-  the frontier is the highest tested 2060 population meeting GSI >= threshold.
+  the frontier is the highest modeled 2060 population among the tested
+  population levels that meets GSI >= the threshold.
 
-Figure 6: conditional-feasibility heatmaps for all six non-population factors.
-  Final: figures/figure_6.png
+Figure 6: conditional-feasibility heatmaps for all six non-population factors
+  Output: figures/figure_6.png
   Code: scripts/figure_6.R; scripts/common_data.R
   Definition: each panel fixes one factor level; each cell reports the percent
   of combinations of the remaining factors meeting the population and minimum
   GSI requirement.
 
-Figure 7: Lake Mead, Lake Powell, and Salt-Verde storage trajectories.
-  Final: figures/figure_7.png
+Figure 7: Lake Mead, Lake Powell, and Salt-Verde storage trajectories
+  Output: figures/figure_7.png
   Code: scripts/figure_7.R; scripts/common_data.R
-  Data: MEDSTORE, POWSTORE, and SVRSTORE from 2000-2060.
+  Inputs: MEDSTORE, POWSTORE, and SVRSTORE from 2000-2060
 
-Supplementary figures
----------------------
-Figure S1: WEBPOPGR and corresponding 2060 regional population.
-  Final: supplementary/figures/supplementary_figure_1.png
+
+PUBLISHED SUPPLEMENTARY FIGURES
+-------------------------------
+
+Figure S1: WEBPOPGR and corresponding 2060 regional population
+  Output: supplementary/figures/supplementary_figure_1.png
   Code: supplementary/scripts/supplementary_figure_1.R
 
-Figure S2: Salt-Verde storage conditional-feasibility heatmaps.
-  Final: supplementary/figures/supplementary_figure_2.png
+Figure S2: Salt-Verde storage conditional-feasibility heatmaps
+  Output: supplementary/figures/supplementary_figure_2.png
   Code: supplementary/scripts/supplementary_figure_2.R
 
-Figure S3: visual representation of the factorial inputs.
-  Final: supplementary/figures/supplementary_figure_3.png
-  Source: artwork retained from the supplementary document; no R generator.
 
-Internal verification and retained analyses
--------------------------------------------
-Matched-frontier verification:
-  internal_validation/matched_frontier/
+SUPPORTING VALIDATION
+---------------------
 
-Figure 5 boundary-identifiability verification:
-  internal_validation/frontier_bounds/
+Figure 5 boundary-identifiability analysis
+  Location: internal_validation/frontier_bounds/
+  Purpose: evaluates censoring across all GSI thresholds and supports selection
+  of the 79-98 interval used in Figure 5.
 
-Overall, unconditioned feasibility heatmap:
-  additional_analysis/overall_feasibility/
+Matched-frontier analysis
+  Location: internal_validation/matched_frontier/
+  Purpose: compares factor levels within identical backgrounds of all other
+  non-population factors. The directory contains methods, a figure caption,
+  scripts, figures, and supporting tables.
 
-Legacy exact-GSI violin Figure 5:
-  archive/legacy_figure_5/
 
-Detailed methods for Figure 4, legacy Figure 5, current Figure 5, and current
-Figure 6:
-  documentation/figure_4_5_6_methods_and_legacy_figure_5.txt
+ADDITIONAL ANALYSIS
+-------------------
+
+Overall unconditioned feasibility heatmap
+  Location: additional_analysis/overall_feasibility/
+  Purpose: shows the percentage of all 324 climate-policy combinations meeting
+  each population and minimum-GSI requirement without fixing a focal factor.
+
+
+ARCHIVED ANALYSIS
+-----------------
+
+Superseded exact-GSI violin Figure 5
+  Location: archive/legacy_figure_5/
+  Contents: the former figure and its generating script, retained solely for
+  provenance and clearly separated from the current reproduction workflow.

@@ -22,7 +22,7 @@ setorder(summary_data, groundwater_years)
 p <- ggplot(summary_data, aes(x = groundwater_years)) +
   geom_ribbon(
     aes(ymin = minimum, ymax = maximum, fill = "Full Range (Min-Max)"),
-    alpha = 0.3
+    alpha = 0.45
   ) +
   geom_ribbon(
     aes(ymin = lower_quartile, ymax = upper_quartile,
@@ -31,7 +31,7 @@ p <- ggplot(summary_data, aes(x = groundwater_years)) +
   ) +
   geom_line(aes(y = median, color = "Median"), linewidth = 1) +
   scale_fill_manual(values = c(
-    "Full Range (Min-Max)" = "lightblue",
+    "Full Range (Min-Max)" = "#9ECAE1",
     "Interquartile Range (25-75%)" = "blue"
   )) +
   scale_color_manual(values = c("Median" = "red")) +
@@ -41,7 +41,7 @@ p <- ggplot(summary_data, aes(x = groundwater_years)) +
     labels = 4:10
   ) +
   labs(
-    x = "Groundwater supply remaining in 2060 (years)",
+    x = "GSI: years groundwater pumping can be sustained",
     y = "Projected population in 2060 (millions)"
   ) +
   theme_classic(base_size = 14) +
@@ -49,6 +49,8 @@ p <- ggplot(summary_data, aes(x = groundwater_years)) +
     legend.title = element_blank(),
     legend.position = "inside",
     legend.position.inside = c(0.25, 0.25),
+    legend.spacing.y = grid::unit(0, "pt"),
+    legend.margin = margin(0),
     axis.title.x = element_text(margin = margin(t = 12)),
     axis.title.y = element_text(margin = margin(r = 12))
   )

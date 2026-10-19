@@ -1,4 +1,4 @@
-MATCHED FRONTIER COMPARISON: SUMMARY, SUPPLEMENTARY METHODS, AND FIGURE CAPTION
+MATCHED FRONTIER COMPARISON: SUMMARY, METHODS, AND FIGURE CAPTION
 
 
 1. BRIEF SUMMARY OF THE ANALYSIS
@@ -26,7 +26,7 @@ shows both the median signed frontier difference and how consistently the
 matched backgrounds produced expansion, contraction, or no change.
 
 
-2. PROPOSED SUPPLEMENTARY METHODS
+2. METHODS
 
 Matched comparisons of the groundwater-constrained population frontier
 
@@ -69,7 +69,7 @@ describe consistency within the designed factorial scenario ensemble and are
 not probabilities of future outcomes.
 
 
-3. DRAFT FIGURE CAPTION
+3. FIGURE CAPTION
 
 Supplementary Fig. Sx  Matched changes in the groundwater-constrained
 population frontier across climate and policy factor levels. For each minimum

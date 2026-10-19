@@ -15,6 +15,7 @@ required_packages <- c(
   "gridExtra",
   "patchwork",
   "ragg",
+  "R.utils",
   "scales",
   "sf",
   "shadowtext"

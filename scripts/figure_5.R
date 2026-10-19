@@ -102,7 +102,11 @@ reader_label <- function(variable, value) {
     ),
     ENFLOPCT = c("0" = "0 AF", "50" = "80,000 AF"),
     PCRDGPCD = c("0" = "3.2% reduction", "29" = "25% reduction", "58" = "45% reduction"),
-    WEBAGEFF = c("100" = "Current (2015)", "90" = "10% below 2015", "80" = "20% below 2015"),
+    WEBAGEFF = c(
+      "100" = "0% change (2015)",
+      "90" = "10% decrease in efficiency",
+      "80" = "20% decrease in efficiency"
+    ),
     WEBAGTR1 = c("0" = "0%", "50" = "50%", "100" = "100%"),
     WEBAUGPCT = c("0" = "0%", "10" = "10%", "20" = "20%")
   )
@@ -280,7 +284,7 @@ make_panel <- function(panel_code) {
     labs(
       title = paste0(panel_code, ". ", plot_data$factor_group[[1]]),
       x = "Minimum GSI threshold (years)",
-      y = "Maximum tested population meeting GSI threshold (millions)",
+      y = "Maximum modeled population meeting GSI threshold (millions)",
       color = NULL, fill = NULL
     ) +
     theme_classic(base_size = 14) +

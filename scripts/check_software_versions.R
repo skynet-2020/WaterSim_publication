@@ -3,6 +3,7 @@ verified <- c(
   cowplot = "1.1.3", data.table = "1.15.4", ggplot2 = "3.5.1",
   ggspatial = "1.1.9", ggtext = "0.1.2", gridExtra = "2.3",
   patchwork = "1.2.0", ragg = "1.3.2", scales = "1.3.0",
+  R.utils = "2.12.3",
   sf = "1.0.19", shadowtext = "0.1.4"
 )
 

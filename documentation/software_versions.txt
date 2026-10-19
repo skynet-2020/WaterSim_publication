@@ -24,6 +24,7 @@ ggtext       0.1.2
 gridExtra    2.3
 patchwork    1.2.0
 ragg         1.3.2
+R.utils      2.12.3
 scales       1.3.0
 sf           1.0.19
 shadowtext   0.1.4
@@ -65,4 +66,3 @@ loaded via a namespace (and not attached):
 [33] fansi_1.0.6        ggplot2_3.5.1      magrittr_2.0.3     scales_1.3.0      
 [37] units_0.8-5        colorspace_2.1-1   ragg_1.3.2         utf8_1.2.4        
 [41] KernSmooth_2.23-20 proxy_0.4-27       ggspatial_1.1.9    munsell_0.5.1     
-

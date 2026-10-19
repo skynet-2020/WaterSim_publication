@@ -16,4 +16,3 @@ for (script in scripts) {
 }
 
 message("Regenerated Supplementary Figures S1 and S2.")
-message("Supplementary Figure S3 is retained artwork and has no R generator.")

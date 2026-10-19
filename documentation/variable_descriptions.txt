@@ -45,7 +45,7 @@ SINYRGWR
     Indicator:Average years for the region that provider groundwater pumping
     can be sustained until total groundwater credits reach zero."
     Use in this study: Principal groundwater-sustainability outcome. Figures
-    3-5 and 7 use its 2060 value. A value of 100 represents 100 or more years
+    3-6 use its 2060 value. A value of 100 represents 100 or more years
     of groundwater supply remaining because the field is capped at 100.
 
 SINDENV
@@ -62,14 +62,14 @@ POWSTORE
     WaterSim label: Powell Storage
     Units: acre-feet
     WaterSim description (verbatim): "The total water storage in Lake Powell."
-    Use in this study: Converted to percent capacity in Figure 6 using a
+    Use in this study: Converted to percent capacity in Figure 7 using a
     30,000,000-acre-foot denominator.
 
 MEDSTORE
     WaterSim label: Mead Storage
     Units: acre-feet
     WaterSim description (verbatim): "The total water storage in Lake Mead"
-    Use in this study: Converted to percent capacity in Figure 6 using a
+    Use in this study: Converted to percent capacity in Figure 7 using a
     30,000,000-acre-foot denominator.
 
 SVRSTORE
@@ -77,8 +77,8 @@ SVRSTORE
     Units: acre-feet
     WaterSim description (verbatim): "The total annual storage in the Salt
     River Project reservoirs."
-    Use in this study: Converted to percent capacity in Figure 6 using a
-    2,500,000-acre-foot denominator.
+    Use in this study: Converted to percent capacity in Figure 7 and used in
+    Supplementary Figure S2 with a 2,500,000-acre-foot denominator.
 
 
 DATASET 2: data/population_growth_data.csv.gz
@@ -120,7 +120,7 @@ POPUSED
     to estimate demand for the completed simulation year."
     Use in this study: The 2060 values are summed across all 33 providers for
     each WEBPOPGR scenario to create the regional population lookup used by
-    Figures 4, 5, and 7 and Supplementary Figure 1.
+    Figures 4-6 and Supplementary Figures S1-S2.
 
 POPOTHER
     WaterSim label: Other population (ppl)

@@ -124,7 +124,7 @@ plots <- list(
   make_heatmap(
     results[ENFLOPCT == 50], "80,000 AF", 162L
   ),
-  factor_label("Environmental\nflow"),
+  factor_label("EF"),
 
   # Three-panel policy rows.
   make_heatmap(
@@ -135,10 +135,10 @@ plots <- list(
   factor_label("MWUE"),
 
   make_heatmap(
-    results[WEBAGEFF == 100], "Current (2015)", 108L, show_y = TRUE
+    results[WEBAGEFF == 100], "0% change (2015)", 108L, show_y = TRUE
   ),
-  make_heatmap(results[WEBAGEFF == 90], "10% below 2015", 108L),
-  make_heatmap(results[WEBAGEFF == 80], "20% below 2015", 108L),
+  make_heatmap(results[WEBAGEFF == 90], "10% decrease in efficiency", 108L),
+  make_heatmap(results[WEBAGEFF == 80], "20% decrease in efficiency", 108L),
   factor_label("AWUE"),
 
   make_heatmap(
@@ -162,7 +162,7 @@ plots <- list(
     results[WEBAUGPCT == 20], "20%", 108L, show_x = TRUE,
     x_breaks = as.character(c(70, 80, 90, 100))
   ),
-  factor_label("Supply\naugmentation"),
+  factor_label("SA"),
 
   wrap_elements(full = textGrob(
     "Minimum GSI threshold (years)",

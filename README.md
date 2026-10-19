@@ -1,8 +1,8 @@
 # WaterSim publication data and analysis package
 
 This repository contains the curated data, configuration, documentation, and R
-code supporting the current WaterSim manuscript on groundwater-constrained
-population growth in metropolitan Phoenix.
+code supporting the WaterSim study of groundwater-constrained population
+growth in metropolitan Phoenix.
 
 Repository creation and analysis: **Joshua Gilman**
 
@@ -10,20 +10,19 @@ Repository creation and analysis: **Joshua Gilman**
 
 ```text
 configuration/       Factorial design and scenario-count verification
-current_manuscript/  Current manuscript and supplementary-material reference files
 data/                Compressed model outputs and spatial inputs
-documentation/       Data dictionary, figure inventory, and audit records
+documentation/       Data dictionary, figure inventory, and software information
 figures/             Final main-text figures only
 scripts/             Main-text analysis and figure scripts
 supplementary/       Final supplementary figures and their available scripts
-internal_validation/ Internal frontier-identifiability and matched analyses
-additional_analysis/ Retained analyses not currently in the manuscript
+internal_validation/ Analyses supporting frontier identifiability and comparisons
+additional_analysis/ Scientifically related analyses not shown in the paper
 archive/             Clearly labeled superseded publication material
 ```
 
-The manuscript and supplementary-material files are included as reference
-copies. The numbered PNGs in `figures/` correspond to manuscript version 4 in
-`current_manuscript/`.
+This package reproduces the reported analyses and figures from archived
+WaterSim output datasets. It does not rerun WaterSim or reproduce the original
+model-query process.
 
 ## Experimental design
 
@@ -60,20 +59,18 @@ count or annual growth rate. The lookup selects `POPUSED` in 2060, sums across
 increments of 2) to regional population. The additional level 0 is retained as
 a baseline in the population dataset.
 
-## Current manuscript figures
+## Published figures
 
 | Output | Subject | Primary code |
 |---|---|---|
 | Figure 1 | Phoenix Metropolitan Area and water providers | `scripts/figure_1.R` |
-| Figure 2 | Simulation workflow | Artwork retained from the manuscript |
 | Figure 3 | Distribution of 2060 GSI | `scripts/figure_3.R` |
 | Figure 4 | Overall population–GSI frontier | `scripts/figure_4.R` |
 | Figure 5 | Median population frontiers and IQR ribbons | `scripts/figure_5.R` |
 | Figure 6 | Conditional-feasibility heatmaps | `scripts/figure_6.R` |
 | Figure 7 | Reservoir storage trajectories | `scripts/figure_7.R` |
 
-The final numbered PNGs are in `figures/`. Figure 2 is retained as manuscript
-artwork because no data-generating script is required for it. See
+The final data-derived numbered PNGs are in `figures/`. See
 `documentation/figure_source_inventory.txt` for exact inputs and methods.
 
 ## Supplementary material
@@ -82,9 +79,6 @@ Final supplementary figures are in `supplementary/figures/`.
 
 - Figure S1 maps the population-growth input to 2060 regional population.
 - Figure S2 shows conditional Salt–Verde storage feasibility.
-- Figure S3 is the experimental-design illustration embedded in the current
-  supplementary document; it is retained as artwork and has no R generator.
-
 Available scripts are in `supplementary/scripts/`.
 
 ## Internal verification analyses
@@ -92,26 +86,21 @@ Available scripts are in `supplementary/scripts/`.
 `internal_validation/frontier_bounds/` documents boundary censoring and the
 selection of the 79–98 GSI interval used in Figure 5.
 
-`internal_validation/matched_frontier/` contains the matched-background
-analysis retained for internal verification and potential reviewer requests.
-It includes the matched-set identifiability analysis, matched frontier
-contrasts over the fully matchable interval, the final contrast figure and
-supporting tables, and a concise methods document. These files are not part of
-the current manuscript unless explicitly added in a later revision.
+`internal_validation/matched_frontier/` contains a matched-background analysis
+that holds all other experimental factors constant while comparing levels of a
+focal factor. It includes matched-set identifiability checks, frontier
+contrasts over the fully matchable interval, a complete figure, supporting
+tables, methods, and a figure caption.
 
-The unconditioned feasibility heatmap requested for context is retained under
-`additional_analysis/overall_feasibility/`.
+`additional_analysis/overall_feasibility/` contains an unconditioned
+feasibility heatmap calculated from the complete scenario ensemble. Its README
+explains how it differs from the factor-conditioned heatmaps.
 
 ## Legacy material
 
 The former exact-GSI violin version of Figure 5 is preserved under
-`archive/legacy_figure_5/`. It is retained for provenance but is not the current
-manuscript Figure 5. Pre-v4 figure rasters are likewise separated from the
-current numbered figures.
-
-The detailed methods record for Figure 4, the former Figure 5, current Figure
-5, and current Figure 6 is
-`documentation/figure_4_5_6_methods_and_legacy_figure_5.txt`.
+`archive/legacy_figure_5/` for provenance. The archive README distinguishes it
+from the current Figure 5 analysis.
 
 ## Running the analyses
 

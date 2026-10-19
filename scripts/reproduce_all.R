@@ -21,4 +21,3 @@ for (script in scripts) {
 }
 
 message("Finished reproducing data-derived main-text Figures 1 and 3-7.")
-message("Figure 2 is retained manuscript artwork and has no R generator.")
